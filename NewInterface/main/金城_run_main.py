@@ -53,7 +53,6 @@ class RunTest:
                 elif cookie == 'yes':
                     father_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data')
                     file_path = os.path.join(father_path, '金城-cookies.json')
-                    print(file_path)
                     get_cookies = OperationJson(file_path)
 
                     cooki = get_cookies.get_data('accessToken')
