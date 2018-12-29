@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
-import sys
+
 import os
 import xlrd
 from xlutils.copy import copy
-
 
 
 class OperationExcel:
@@ -12,9 +11,9 @@ class OperationExcel:
             self.file_name = file_name
             self.sheet_name = sheet_name
         else:
-            pwd = os.getcwd()
-            father_path = os.path.abspath(os.path.dirname(pwd) + os.path.sep + ".")
-            self.file_name = '../data/interface.xls'
+            father_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),'data')
+            # self.file_name = '../data/interface.xls'
+            self.file_name = os.path.join(father_path, 'interface.xls')
             self.sheet_name = 'Sheet1'
         self.data = self.get_data()
 
