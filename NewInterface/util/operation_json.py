@@ -6,7 +6,6 @@ class OperationJson:
     def __init__(self, file_path=None):
         if file_path is None:
             father_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data')
-            # self.file_name = '../data/interface.xls'
             self.file_path = os.path.join(father_path, 'login.json')
             # self.file_path = '../data/login.json'
         else:
@@ -32,7 +31,9 @@ class OperationJson:
 
     # json写入数据
     def write_data(self, data):
-        with open('../data/scm-cookies.json', 'w') as fp:
+        father_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data')
+        self.file_path = os.path.join(father_path, 'scm-cookies.json')
+        with open(self.file_path, 'w') as fp:
             fp.write(json.dumps(data))
 
 

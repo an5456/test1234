@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0fd8d7a2-59ac-4f62-b527-f20308a9468a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/interface.xls" beforeDir="false" afterPath="$PROJECT_DIR$/data/interface.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/scm-cookies.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/scm-cookies.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/log/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/logs/2018-12-29.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/logs/2018-12-29.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/interface.xls" beforeDir="false" afterPath="$PROJECT_DIR$/util/interface.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/operation_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/operation_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/operation_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/operation_json.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/NewInterface$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1546047627011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/log" />
-    <SUITE FILE_PATH="coverage/NewInterface$_run_main.coverage" NAME="金城_run_main Coverage Results" MODIFIED="1546058299802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/NewInterface$_run_main.coverage" NAME="金城_run_main Coverage Results" MODIFIED="1546058478095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/NewInterface$get_data.coverage" NAME="get_data Coverage Results" MODIFIED="1542217687909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
     <SUITE FILE_PATH="coverage/NewInterface$Unittests_for_test_02_Test1.coverage" NAME="Unittests for test_02.Test1 Coverage Results" MODIFIED="1543395058986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/NewInterface$__init____2_.coverage" NAME="__init__ (2) Coverage Results" MODIFIED="1546057041656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
@@ -38,10 +33,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/util/operation_json.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+              <folding>
+                <element signature="e#24#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/金城_run_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="75" />
+            <state relative-caret-position="50">
+              <caret line="3" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -62,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/util/operation_excel.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+              <caret line="15" column="71" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="15" selection-end-column="71" />
               <folding>
                 <element signature="e#25#34#0" expanded="true" />
               </folding>
@@ -111,15 +118,6 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/login.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="127" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="127" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -145,7 +143,6 @@
         <option value="$PROJECT_DIR$/util/write_cookies.py" />
         <option value="$PROJECT_DIR$/data/cookies.json" />
         <option value="$PROJECT_DIR$/main/main_01.py" />
-        <option value="$PROJECT_DIR$/util/operation_json.py" />
         <option value="$PROJECT_DIR$/main/金城-run_main.py" />
         <option value="$PROJECT_DIR$/main/run_main.py" />
         <option value="$PROJECT_DIR$/data/scm-cookies.json" />
@@ -158,6 +155,7 @@
         <option value="$PROJECT_DIR$/data/__init__.py" />
         <option value="$PROJECT_DIR$/log/__init__.py" />
         <option value="$PROJECT_DIR$/util/operation_excel.py" />
+        <option value="$PROJECT_DIR$/util/operation_json.py" />
       </list>
     </option>
   </component>
@@ -404,7 +402,7 @@
       <workItem from="1545815317141" duration="742000" />
       <workItem from="1545984272629" duration="2890000" />
       <workItem from="1546046927749" duration="1483000" />
-      <workItem from="1546049202499" duration="2082000" />
+      <workItem from="1546049202499" duration="2387000" />
     </task>
     <task id="LOCAL-00001" summary="哈哈哈哈">
       <created>1544021155389</created>
@@ -518,7 +516,21 @@
       <option name="project" value="LOCAL" />
       <updated>1546056867946</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="路径修改">
+      <created>1546058328069</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1546058328069</updated>
+    </task>
+    <task id="LOCAL-00018" summary="路径修改123">
+      <created>1546058491102</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1546058491102</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -539,18 +551,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67677000" />
+    <option name="totallyTimeSpent" value="67982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13219616" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13219616" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36836404" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36836404" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39770868" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -610,7 +622,9 @@
     <MESSAGE value="修改1234" />
     <MESSAGE value="字体颜色" />
     <MESSAGE value="11111" />
-    <option name="LAST_COMMIT_MESSAGE" value="11111" />
+    <MESSAGE value="路径修改" />
+    <MESSAGE value="路径修改123" />
+    <option name="LAST_COMMIT_MESSAGE" value="路径修改123" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://C:/Program Files/Python36/Lib/site-packages/xlrd/__init__.py" />
@@ -714,13 +728,6 @@
     <entry file="file://$PROJECT_DIR$/log/logs/2018-12-21.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/operation_json.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/util/operation_cookies.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
@@ -804,7 +811,7 @@
     <entry file="file://$PROJECT_DIR$/util/operation_excel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+          <caret line="15" column="71" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="15" selection-end-column="71" />
           <folding>
             <element signature="e#25#34#0" expanded="true" />
           </folding>
@@ -813,8 +820,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/金城_run_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="75" />
+        <state relative-caret-position="50">
+          <caret line="3" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/operation_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
