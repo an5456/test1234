@@ -1,0 +1,1722 @@
+2018-12-05 01:26:57,611 run_main.py--> go_no_run 20: INFO ----->第1个case-->哈哈哈1: 测试通过
+2018-12-05 01:26:57,612 run_main.py--> go_no_run 20: INFO ----->url--> http://mam.netease.com/api/v1/getconfig
+2018-12-05 01:26:57,612 run_main.py--> go_no_run 20: INFO ----->request_data-->None
+2018-12-05 01:26:57,612 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 200,
+  "data": {
+    "errorStackSamplingRate": 0,
+    "isconnect": true
+  },
+  "message": "请求成功",
+  "timestamp": 1543944576795
+}
+2018-12-05 01:26:57,827 run_main.py--> go_no_run 20: INFO ----->第3个case-->哈哈哈3: 测试通过
+2018-12-05 01:26:57,828 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/yyjapi/api/store/getdata
+2018-12-05 01:26:57,828 run_main.py--> go_no_run 20: INFO ----->request_data-->None
+2018-12-05 01:26:57,828 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "200",
+  "data": [
+    {
+      "address": "唐山市路南区国际五金城东川山甲仓库",
+      "belongto": null,
+      "belongtype": null,
+      "bussinesscorp": null,
+      "dc": "4028813260fca5590160fdfad37f008f",
+      "deviceno": null,
+      "id": "4028813255d845610155dd6ef2a70097",
+      "iswmsintegrate": null,
+      "linkman": null,
+      "manager": null,
+      "memo": null,
+      "nodeid": null,
+      "objlevel": "4028813255425d28015543b5d3a40427",
+      "objtype": "4028813255425d28015543b7e0be042b",
+      "requestid": "4028813255d845610155dd6ef1fc0095",
+      "rowindex": null,
+      "storename": "川山甲唐山区域库-test",
+      "storeno": "0002",
+      "tel": "1864768 1520"
+    },
+    {
+      "address": "嘉兴市秀洲区吉蚂西路183号（川山甲嘉兴一级库）",
+      "belongto": "4028813258ffe1cf01590071ebc5003d",
+      "belongtype": "402881315c2d8a1a015c2f88eb600932",
+      "bussinesscorp": null,
+      "dc": "40288132612083dc01612208881d0185",
+      "deviceno": null,
+      "id": "402881325741bf120157d17e09b82b8f",
+      "iswmsintegrate": "1",
+      "linkman": "11",
+      "manager": null,
+      "memo": null,
+      "nodeid": null,
+      "objlevel": "4028813255425d28015543b5d3a40426",
+      "objtype": "4028813255425d28015543b7e0be042b",
+      "requestid": "402881325741bf120157d17e096a2b8d",
+      "rowindex": null,
+      "storename": "嘉兴MRO仓",
+      "storeno": "D0004",
+      "tel": "15888804320"
+    },
+    {
+      "address": "宝安体育馆",
+      "belongto": null,
+      "belongtype": "402881315c2d8a1a015c2f88eb600934",
+      "bussinesscorp": null,
+      "dc": null,
+      "deviceno": null,
+      "id": "4028813258ffe1cf0159007563920049",
+      "iswmsintegrate": null,
+      "linkman": "何先生",
+      "manager": null,
+      "memo": null,
+      "nodeid": null,
+      "objlevel": "4028813255425d28015543b5d3a40427",
+      "objtype": "4028813255425d28015543b7e0be042b",
+      "requestid": "4028813258ffe1cf0159007563240047",
+      "rowindex": null,
+      "storename": "深圳中心库-虚拟",
+      "storeno": "sz0001",
+      "tel": "18767159265"
+    },
+    {
+      "address": "嘉兴市秀洲区吉蚂西路183号（川山甲嘉兴一级库）",
+      "belongto": null,
+      "belongtype": null,
+      "bussinesscorp": null,
+      "dc": "40288132612083dc01612208881d0185",
+      "deviceno": null,
+      "id": "402881325741bf120157d17da77c2b8c",
+      "iswmsintegrate": null,
+      "linkman": null,
+      "manager": null,
+      "memo": null,
+      "nodeid": null,
+      "objlevel": "4028813255425d28015543b5d3a40426",
+      "objtype": "4028813255425d28015543b7e0be042b",
+      "requestid": "402881325741bf120157d17da72e2b8a",
+      "rowindex": null,
+      "storename": "嘉兴周转仓",
+      "storeno": "D0003",
+      "tel": "15888804320"
+    },
+    {
+      "address": "天茂钢厂共享仓库",
+      "belongto": null,
+      "belongtype": null,
+      "bussinesscorp": null,
+      "dc": "4028813260fca5590160fdfb1d2c0092",
+      "deviceno": null,
+      "id": "402881325741bf120157d17fc1912b92",
+      "iswmsintegrate": null,
+      "linkman": null,
+      "manager": null,
+      "memo": null,
+      "nodeid": null,
+      "objlevel": "4028813255425d28015543b5d3a40427",
+      "objtype": "4028813255425d28015543b7e0be042b",
+      "requestid": "402881325741bf120157d17fc1432b90",
+      "rowindex": null,
+      "storename": "唐山工厂库-test",
+      "storeno": "D0010",
+      "tel": "18647681520"
+    }
+  ],
+  "message": "调用API成功"
+}
+2018-12-05 01:27:08,955 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试通过
+2018-12-05 01:27:08,955 run_main.py--> go_no_run 20: INFO ----->url--> http://mam.netease.com/api/v1/getconfig
+2018-12-05 01:27:08,956 run_main.py--> go_no_run 20: INFO ----->request_data-->None
+2018-12-05 01:27:08,956 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 200,
+  "data": {
+    "errorStackSamplingRate": 0,
+    "isconnect": true
+  },
+  "message": "请求成功",
+  "timestamp": 1543944588142
+}
+2018-12-05 11:56:45,629 run_main.py--> go_no_run 20: INFO ----->第1个case-->哈哈哈1: 测试通过
+2018-12-05 11:56:45,630 run_main.py--> go_no_run 20: INFO ----->url--> http://mam.netease.com/api/v1/getconfig
+2018-12-05 11:56:45,630 run_main.py--> go_no_run 20: INFO ----->request_data-->None
+2018-12-05 11:56:45,631 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 200,
+  "data": {
+    "errorStackSamplingRate": 0,
+    "isconnect": true
+  },
+  "message": "请求成功",
+  "timestamp": 1543982364919
+}
+2018-12-05 11:56:45,688 run_main.py--> go_no_run 20: INFO ----->第3个case-->哈哈哈3: 测试通过
+2018-12-05 11:56:45,688 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/yyjapi/api/store/getdata
+2018-12-05 11:56:45,688 run_main.py--> go_no_run 20: INFO ----->request_data-->None
+2018-12-05 11:56:45,688 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "200",
+  "data": [
+    {
+      "address": "唐山市路南区国际五金城东川山甲仓库",
+      "belongto": null,
+      "belongtype": null,
+      "bussinesscorp": null,
+      "dc": "4028813260fca5590160fdfad37f008f",
+      "deviceno": null,
+      "id": "4028813255d845610155dd6ef2a70097",
+      "iswmsintegrate": null,
+      "linkman": null,
+      "manager": null,
+      "memo": null,
+      "nodeid": null,
+      "objlevel": "4028813255425d28015543b5d3a40427",
+      "objtype": "4028813255425d28015543b7e0be042b",
+      "requestid": "4028813255d845610155dd6ef1fc0095",
+      "rowindex": null,
+      "storename": "川山甲唐山区域库-test",
+      "storeno": "0002",
+      "tel": "1864768 1520"
+    },
+    {
+      "address": "嘉兴市秀洲区吉蚂西路183号（川山甲嘉兴一级库）",
+      "belongto": "4028813258ffe1cf01590071ebc5003d",
+      "belongtype": "402881315c2d8a1a015c2f88eb600932",
+      "bussinesscorp": null,
+      "dc": "40288132612083dc01612208881d0185",
+      "deviceno": null,
+      "id": "402881325741bf120157d17e09b82b8f",
+      "iswmsintegrate": "1",
+      "linkman": "11",
+      "manager": null,
+      "memo": null,
+      "nodeid": null,
+      "objlevel": "4028813255425d28015543b5d3a40426",
+      "objtype": "4028813255425d28015543b7e0be042b",
+      "requestid": "402881325741bf120157d17e096a2b8d",
+      "rowindex": null,
+      "storename": "嘉兴MRO仓",
+      "storeno": "D0004",
+      "tel": "15888804320"
+    },
+    {
+      "address": "宝安体育馆",
+      "belongto": null,
+      "belongtype": "402881315c2d8a1a015c2f88eb600934",
+      "bussinesscorp": null,
+      "dc": null,
+      "deviceno": null,
+      "id": "4028813258ffe1cf0159007563920049",
+      "iswmsintegrate": null,
+      "linkman": "何先生",
+      "manager": null,
+      "memo": null,
+      "nodeid": null,
+      "objlevel": "4028813255425d28015543b5d3a40427",
+      "objtype": "4028813255425d28015543b7e0be042b",
+      "requestid": "4028813258ffe1cf0159007563240047",
+      "rowindex": null,
+      "storename": "深圳中心库-虚拟",
+      "storeno": "sz0001",
+      "tel": "18767159265"
+    },
+    {
+      "address": "嘉兴市秀洲区吉蚂西路183号（川山甲嘉兴一级库）",
+      "belongto": null,
+      "belongtype": null,
+      "bussinesscorp": null,
+      "dc": "40288132612083dc01612208881d0185",
+      "deviceno": null,
+      "id": "402881325741bf120157d17da77c2b8c",
+      "iswmsintegrate": null,
+      "linkman": null,
+      "manager": null,
+      "memo": null,
+      "nodeid": null,
+      "objlevel": "4028813255425d28015543b5d3a40426",
+      "objtype": "4028813255425d28015543b7e0be042b",
+      "requestid": "402881325741bf120157d17da72e2b8a",
+      "rowindex": null,
+      "storename": "嘉兴周转仓",
+      "storeno": "D0003",
+      "tel": "15888804320"
+    },
+    {
+      "address": "天茂钢厂共享仓库",
+      "belongto": null,
+      "belongtype": null,
+      "bussinesscorp": null,
+      "dc": "4028813260fca5590160fdfb1d2c0092",
+      "deviceno": null,
+      "id": "402881325741bf120157d17fc1912b92",
+      "iswmsintegrate": null,
+      "linkman": null,
+      "manager": null,
+      "memo": null,
+      "nodeid": null,
+      "objlevel": "4028813255425d28015543b5d3a40427",
+      "objtype": "4028813255425d28015543b7e0be042b",
+      "requestid": "402881325741bf120157d17fc1432b90",
+      "rowindex": null,
+      "storename": "唐山工厂库-test",
+      "storeno": "D0010",
+      "tel": "18647681520"
+    }
+  ],
+  "message": "调用API成功"
+}
+2018-12-05 11:56:55,357 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试通过
+2018-12-05 11:56:55,357 run_main.py--> go_no_run 20: INFO ----->url--> http://mam.netease.com/api/v1/getconfig
+2018-12-05 11:56:55,357 run_main.py--> go_no_run 20: INFO ----->request_data-->None
+2018-12-05 11:56:55,358 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 200,
+  "data": {
+    "errorStackSamplingRate": 0,
+    "isconnect": true
+  },
+  "message": "请求成功",
+  "timestamp": 1543982374637
+}
+2018-12-05 14:24:12,837 run_main.py--> go_no_run 20: INFO ----->第1个case-->哈哈哈1: 测试通过
+2018-12-05 14:24:12,838 run_main.py--> go_no_run 20: INFO ----->url--> http://mam.netease.com/api/v1/getconfig
+2018-12-05 14:24:12,838 run_main.py--> go_no_run 20: INFO ----->request_data-->None
+2018-12-05 14:24:12,838 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 200,
+  "data": {
+    "errorStackSamplingRate": 0,
+    "isconnect": true
+  },
+  "message": "请求成功",
+  "timestamp": 1543991212049
+}
+2018-12-05 14:24:12,892 run_main.py--> go_no_run 20: INFO ----->第3个case-->哈哈哈3: 测试通过
+2018-12-05 14:24:12,892 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/yyjapi/api/store/getdata
+2018-12-05 14:24:12,892 run_main.py--> go_no_run 20: INFO ----->request_data-->None
+2018-12-05 14:24:12,892 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "200",
+  "data": [
+    {
+      "address": "唐山市路南区国际五金城东川山甲仓库",
+      "belongto": null,
+      "belongtype": null,
+      "bussinesscorp": null,
+      "dc": "4028813260fca5590160fdfad37f008f",
+      "deviceno": null,
+      "id": "4028813255d845610155dd6ef2a70097",
+      "iswmsintegrate": null,
+      "linkman": null,
+      "manager": null,
+      "memo": null,
+      "nodeid": null,
+      "objlevel": "4028813255425d28015543b5d3a40427",
+      "objtype": "4028813255425d28015543b7e0be042b",
+      "requestid": "4028813255d845610155dd6ef1fc0095",
+      "rowindex": null,
+      "storename": "川山甲唐山区域库-test",
+      "storeno": "0002",
+      "tel": "1864768 1520"
+    },
+    {
+      "address": "嘉兴市秀洲区吉蚂西路183号（川山甲嘉兴一级库）",
+      "belongto": "4028813258ffe1cf01590071ebc5003d",
+      "belongtype": "402881315c2d8a1a015c2f88eb600932",
+      "bussinesscorp": null,
+      "dc": "40288132612083dc01612208881d0185",
+      "deviceno": null,
+      "id": "402881325741bf120157d17e09b82b8f",
+      "iswmsintegrate": "1",
+      "linkman": "11",
+      "manager": null,
+      "memo": null,
+      "nodeid": null,
+      "objlevel": "4028813255425d28015543b5d3a40426",
+      "objtype": "4028813255425d28015543b7e0be042b",
+      "requestid": "402881325741bf120157d17e096a2b8d",
+      "rowindex": null,
+      "storename": "嘉兴MRO仓",
+      "storeno": "D0004",
+      "tel": "15888804320"
+    },
+    {
+      "address": "宝安体育馆",
+      "belongto": null,
+      "belongtype": "402881315c2d8a1a015c2f88eb600934",
+      "bussinesscorp": null,
+      "dc": null,
+      "deviceno": null,
+      "id": "4028813258ffe1cf0159007563920049",
+      "iswmsintegrate": null,
+      "linkman": "何先生",
+      "manager": null,
+      "memo": null,
+      "nodeid": null,
+      "objlevel": "4028813255425d28015543b5d3a40427",
+      "objtype": "4028813255425d28015543b7e0be042b",
+      "requestid": "4028813258ffe1cf0159007563240047",
+      "rowindex": null,
+      "storename": "深圳中心库-虚拟",
+      "storeno": "sz0001",
+      "tel": "18767159265"
+    },
+    {
+      "address": "嘉兴市秀洲区吉蚂西路183号（川山甲嘉兴一级库）",
+      "belongto": null,
+      "belongtype": null,
+      "bussinesscorp": null,
+      "dc": "40288132612083dc01612208881d0185",
+      "deviceno": null,
+      "id": "402881325741bf120157d17da77c2b8c",
+      "iswmsintegrate": null,
+      "linkman": null,
+      "manager": null,
+      "memo": null,
+      "nodeid": null,
+      "objlevel": "4028813255425d28015543b5d3a40426",
+      "objtype": "4028813255425d28015543b7e0be042b",
+      "requestid": "402881325741bf120157d17da72e2b8a",
+      "rowindex": null,
+      "storename": "嘉兴周转仓",
+      "storeno": "D0003",
+      "tel": "15888804320"
+    },
+    {
+      "address": "天茂钢厂共享仓库",
+      "belongto": null,
+      "belongtype": null,
+      "bussinesscorp": null,
+      "dc": "4028813260fca5590160fdfb1d2c0092",
+      "deviceno": null,
+      "id": "402881325741bf120157d17fc1912b92",
+      "iswmsintegrate": null,
+      "linkman": null,
+      "manager": null,
+      "memo": null,
+      "nodeid": null,
+      "objlevel": "4028813255425d28015543b5d3a40427",
+      "objtype": "4028813255425d28015543b7e0be042b",
+      "requestid": "402881325741bf120157d17fc1432b90",
+      "rowindex": null,
+      "storename": "唐山工厂库-test",
+      "storeno": "D0010",
+      "tel": "18647681520"
+    }
+  ],
+  "message": "调用API成功"
+}
+2018-12-05 14:24:22,447 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试通过
+2018-12-05 14:24:22,447 run_main.py--> go_no_run 20: INFO ----->url--> http://mam.netease.com/api/v1/getconfig
+2018-12-05 14:24:22,447 run_main.py--> go_no_run 20: INFO ----->request_data-->None
+2018-12-05 14:24:22,447 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 200,
+  "data": {
+    "errorStackSamplingRate": 0,
+    "isconnect": true
+  },
+  "message": "请求成功",
+  "timestamp": 1543991221654
+}
+2018-12-05 16:47:53,168 run_main.py--> go_no_run 20: INFO ----->第1个case-->哈哈哈1: 测试通过
+2018-12-05 16:47:53,169 run_main.py--> go_no_run 20: INFO ----->url--> http://mam.netease.com/api/v1/getconfig
+2018-12-05 16:47:53,169 run_main.py--> go_no_run 20: INFO ----->request_data-->None
+2018-12-05 16:47:53,169 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 200,
+  "data": {
+    "errorStackSamplingRate": 0,
+    "isconnect": true
+  },
+  "message": "请求成功",
+  "timestamp": 1543999832437
+}
+2018-12-05 16:47:53,223 run_main.py--> go_no_run 20: INFO ----->第3个case-->哈哈哈3: 测试通过
+2018-12-05 16:47:53,223 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/yyjapi/api/store/getdata
+2018-12-05 16:47:53,223 run_main.py--> go_no_run 20: INFO ----->request_data-->None
+2018-12-05 16:47:53,223 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "200",
+  "data": [
+    {
+      "address": "唐山市路南区国际五金城东川山甲仓库",
+      "belongto": null,
+      "belongtype": null,
+      "bussinesscorp": null,
+      "dc": "4028813260fca5590160fdfad37f008f",
+      "deviceno": null,
+      "id": "4028813255d845610155dd6ef2a70097",
+      "iswmsintegrate": null,
+      "linkman": null,
+      "manager": null,
+      "memo": null,
+      "nodeid": null,
+      "objlevel": "4028813255425d28015543b5d3a40427",
+      "objtype": "4028813255425d28015543b7e0be042b",
+      "requestid": "4028813255d845610155dd6ef1fc0095",
+      "rowindex": null,
+      "storename": "川山甲唐山区域库-test",
+      "storeno": "0002",
+      "tel": "1864768 1520"
+    },
+    {
+      "address": "嘉兴市秀洲区吉蚂西路183号（川山甲嘉兴一级库）",
+      "belongto": "4028813258ffe1cf01590071ebc5003d",
+      "belongtype": "402881315c2d8a1a015c2f88eb600932",
+      "bussinesscorp": null,
+      "dc": "40288132612083dc01612208881d0185",
+      "deviceno": null,
+      "id": "402881325741bf120157d17e09b82b8f",
+      "iswmsintegrate": "1",
+      "linkman": "11",
+      "manager": null,
+      "memo": null,
+      "nodeid": null,
+      "objlevel": "4028813255425d28015543b5d3a40426",
+      "objtype": "4028813255425d28015543b7e0be042b",
+      "requestid": "402881325741bf120157d17e096a2b8d",
+      "rowindex": null,
+      "storename": "嘉兴MRO仓",
+      "storeno": "D0004",
+      "tel": "15888804320"
+    },
+    {
+      "address": "宝安体育馆",
+      "belongto": null,
+      "belongtype": "402881315c2d8a1a015c2f88eb600934",
+      "bussinesscorp": null,
+      "dc": null,
+      "deviceno": null,
+      "id": "4028813258ffe1cf0159007563920049",
+      "iswmsintegrate": null,
+      "linkman": "何先生",
+      "manager": null,
+      "memo": null,
+      "nodeid": null,
+      "objlevel": "4028813255425d28015543b5d3a40427",
+      "objtype": "4028813255425d28015543b7e0be042b",
+      "requestid": "4028813258ffe1cf0159007563240047",
+      "rowindex": null,
+      "storename": "深圳中心库-虚拟",
+      "storeno": "sz0001",
+      "tel": "18767159265"
+    },
+    {
+      "address": "嘉兴市秀洲区吉蚂西路183号（川山甲嘉兴一级库）",
+      "belongto": null,
+      "belongtype": null,
+      "bussinesscorp": null,
+      "dc": "40288132612083dc01612208881d0185",
+      "deviceno": null,
+      "id": "402881325741bf120157d17da77c2b8c",
+      "iswmsintegrate": null,
+      "linkman": null,
+      "manager": null,
+      "memo": null,
+      "nodeid": null,
+      "objlevel": "4028813255425d28015543b5d3a40426",
+      "objtype": "4028813255425d28015543b7e0be042b",
+      "requestid": "402881325741bf120157d17da72e2b8a",
+      "rowindex": null,
+      "storename": "嘉兴周转仓",
+      "storeno": "D0003",
+      "tel": "15888804320"
+    },
+    {
+      "address": "天茂钢厂共享仓库",
+      "belongto": null,
+      "belongtype": null,
+      "bussinesscorp": null,
+      "dc": "4028813260fca5590160fdfb1d2c0092",
+      "deviceno": null,
+      "id": "402881325741bf120157d17fc1912b92",
+      "iswmsintegrate": null,
+      "linkman": null,
+      "manager": null,
+      "memo": null,
+      "nodeid": null,
+      "objlevel": "4028813255425d28015543b5d3a40427",
+      "objtype": "4028813255425d28015543b7e0be042b",
+      "requestid": "402881325741bf120157d17fc1432b90",
+      "rowindex": null,
+      "storename": "唐山工厂库-test",
+      "storeno": "D0010",
+      "tel": "18647681520"
+    }
+  ],
+  "message": "调用API成功"
+}
+2018-12-05 16:48:05,223 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试通过
+2018-12-05 16:48:05,223 run_main.py--> go_no_run 20: INFO ----->url--> http://mam.netease.com/api/v1/getconfig
+2018-12-05 16:48:05,223 run_main.py--> go_no_run 20: INFO ----->request_data-->None
+2018-12-05 16:48:05,223 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 200,
+  "data": {
+    "errorStackSamplingRate": 0,
+    "isconnect": true
+  },
+  "message": "请求成功",
+  "timestamp": 1543999844477
+}
+2018-12-05 16:51:04,542 run_main.py--> go_no_run 20: INFO ----->第9个case-->金城登录: 测试通过
+2018-12-05 16:51:04,543 run_main.py--> go_no_run 20: INFO ----->url--> http://capijcy.jcease.com/jcy-api/app/system/passwordLogin
+2018-12-05 16:51:04,543 run_main.py--> go_no_run 20: INFO ----->request_data-->{'channelMark': '00_OPPO', 'mobi': '18520350227', 'password': '03761decb8c83294b570fbc917b88729', 'pre': '+86', 'OSType': 'A'}
+2018-12-05 16:51:04,543 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 0,
+  "data": {
+    "accessToken": "009b9c20b5594f14af5ced8fb999e1b6",
+    "accessTokenExpires": 1575104023751,
+    "data": {
+      "certificatenum": null,
+      "clientType": "OUTER",
+      "email": null,
+      "headImageUrl": "http://payflie.oss-cn-shanghai.aliyuncs.com/debug/jcease/image/a_15306980639651509716044",
+      "lastUpdated": 1531294368000,
+      "loginChannel": "JCY",
+      "member": null,
+      "merchantName": null,
+      "mobileNo": "18520350227",
+      "name": null,
+      "nickName": "没心没肺",
+      "preMobile": "+86",
+      "registerTime": 1526262840000,
+      "status": 1,
+      "type": null,
+      "userNo": "2009547"
+    },
+    "refreshToken": "009b9c20b5594f14af5ced8fb999e1b6",
+    "userNo": "2009547"
+  },
+  "errmsg": null
+}
+2018-12-05 16:51:04,743 run_main.py--> go_no_run 20: INFO ----->第10个case-->创建收货地址: 测试通过
+2018-12-05 16:51:04,743 run_main.py--> go_no_run 20: INFO ----->url--> https://capimall.jcease.com/api/shop/v4/address/save
+2018-12-05 16:51:04,744 run_main.py--> go_no_run 20: INFO ----->request_data-->{'detail': '11', 'userName': '2', 'mobile': '155554465555', 'area': '滨江区', 'city': '杭州市', 'province': '浙江省', 'defaultAddress': False, 'accessToken': '009b9c20b5594f14af5ced8fb999e1b6', 'appVersion': '3.14.1', 'appPlatform': 'android'}
+2018-12-05 16:51:04,744 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 0,
+  "data": true,
+  "errmsg": null
+}
+2018-12-05 16:51:04,906 run_main.py--> go_no_run 20: INFO ----->第11个case-->修改地址: 测试通过
+2018-12-05 16:51:04,906 run_main.py--> go_no_run 20: INFO ----->url--> https://capimall.jcease.com/api/shop/v4/address/update
+2018-12-05 16:51:04,906 run_main.py--> go_no_run 20: INFO ----->request_data-->{'id': 10243, 'userName': '得到', 'mobile': '155554465559', 'city': '深圳市', 'detail': '11', 'area': '罗湖区', 'province': '广东省', 'defaultAddress': False, 'accessToken': '009b9c20b5594f14af5ced8fb999e1b6', 'appVersion': '3.14.1', 'appPlatform': 'android'}
+2018-12-05 16:51:04,906 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 0,
+  "data": false,
+  "errmsg": null
+}
+2018-12-05 16:51:06,288 run_main.py--> go_no_run 20: INFO ----->第12个case-->查看地址: 测试通过
+2018-12-05 16:51:06,288 run_main.py--> go_no_run 20: INFO ----->url--> https://capimall.jcease.com/api/shop/v3/address/list
+2018-12-05 16:51:06,288 run_main.py--> go_no_run 20: INFO ----->request_data-->{'accessToken': '009b9c20b5594f14af5ced8fb999e1b6', 'appVersion': '3.14.1', 'appPlatform': 'android'}
+2018-12-05 16:51:06,289 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 0,
+  "data": [
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10662,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "罗湖区",
+      "city": "深圳市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10660,
+      "mobile": "15555446555",
+      "province": "广东省",
+      "provinceId": "440000",
+      "userName": "得到",
+      "userNo": "2009547"
+    },
+    {
+      "area": "罗湖区",
+      "city": "深圳市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10658,
+      "mobile": "15555446555",
+      "province": "广东省",
+      "provinceId": "440000",
+      "userName": "得到",
+      "userNo": "2009547"
+    },
+    {
+      "area": "罗湖区",
+      "city": "深圳市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10656,
+      "mobile": "15555446555",
+      "province": "广东省",
+      "provinceId": "440000",
+      "userName": "得到",
+      "userNo": "2009547"
+    },
+    {
+      "area": "罗湖区",
+      "city": "深圳市",
+      "defaultAddress": false,
+      "detail": "q",
+      "id": 10654,
+      "mobile": "2",
+      "province": "广东省",
+      "provinceId": "440000",
+      "userName": "1",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10643,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10642,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10638,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10637,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10636,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10635,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10634,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10633,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10632,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10631,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10630,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10629,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10628,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10627,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10626,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10625,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10624,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10623,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10622,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10621,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10620,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10619,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10618,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10617,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10616,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10615,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10614,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10613,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10612,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10611,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10610,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10609,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10608,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10607,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10606,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10605,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10604,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10603,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    }
+  ],
+  "errmsg": ""
+}
+2018-12-05 16:51:06,439 run_main.py--> go_no_run 20: INFO ----->第13个case-->删除地址: 测试失败
+2018-12-05 16:51:06,440 run_main.py--> go_no_run 20: INFO ----->url--> https://capimall.jcease.com/api/shop/address/delete
+2018-12-05 16:51:06,440 run_main.py--> go_no_run 20: INFO ----->request_data-->{'id': 10243, 'accessToken': '009b9c20b5594f14af5ced8fb999e1b6', 'appVersion': '3.14.1', 'appPlatform': 'android'}
+2018-12-05 16:51:06,440 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 30000,
+  "errmsg": ""
+}
+2018-12-05 21:12:32,407 run_main.py--> go_no_run 20: INFO ----->第9个case-->金城登录: 测试通过
+2018-12-05 21:12:32,408 run_main.py--> go_no_run 20: INFO ----->url--> http://capijcy.jcease.com/jcy-api/app/system/passwordLogin
+2018-12-05 21:12:32,409 run_main.py--> go_no_run 20: INFO ----->request_data-->{'channelMark': '00_OPPO', 'mobi': '18520350227', 'password': '03761decb8c83294b570fbc917b88729', 'pre': '+86', 'OSType': 'A'}
+2018-12-05 21:12:32,409 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 0,
+  "data": {
+    "accessToken": "7cf50bd4dc5747a58433163366d3c8a3",
+    "accessTokenExpires": 1575119711879,
+    "data": {
+      "certificatenum": null,
+      "clientType": "OUTER",
+      "email": null,
+      "headImageUrl": "http://payflie.oss-cn-shanghai.aliyuncs.com/debug/jcease/image/a_15306980639651509716044",
+      "lastUpdated": 1531294368000,
+      "loginChannel": "JCY",
+      "member": null,
+      "merchantName": null,
+      "mobileNo": "18520350227",
+      "name": null,
+      "nickName": "没心没肺",
+      "preMobile": "+86",
+      "registerTime": 1526262840000,
+      "status": 1,
+      "type": null,
+      "userNo": "2009547"
+    },
+    "refreshToken": "7cf50bd4dc5747a58433163366d3c8a3",
+    "userNo": "2009547"
+  },
+  "errmsg": null
+}
+2018-12-05 21:12:33,254 run_main.py--> go_no_run 20: INFO ----->第10个case-->创建收货地址: 测试通过
+2018-12-05 21:12:33,254 run_main.py--> go_no_run 20: INFO ----->url--> https://capimall.jcease.com/api/shop/v4/address/save
+2018-12-05 21:12:33,254 run_main.py--> go_no_run 20: INFO ----->request_data-->{'detail': '11', 'userName': '2', 'mobile': '155554465555', 'area': '滨江区', 'city': '杭州市', 'province': '浙江省', 'defaultAddress': False, 'accessToken': '7cf50bd4dc5747a58433163366d3c8a3', 'appVersion': '3.14.1', 'appPlatform': 'android'}
+2018-12-05 21:12:33,254 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 0,
+  "data": true,
+  "errmsg": null
+}
+2018-12-05 21:12:33,519 run_main.py--> go_no_run 20: INFO ----->第11个case-->修改地址: 测试通过
+2018-12-05 21:12:33,519 run_main.py--> go_no_run 20: INFO ----->url--> https://capimall.jcease.com/api/shop/v4/address/update
+2018-12-05 21:12:33,519 run_main.py--> go_no_run 20: INFO ----->request_data-->{'id': 10243, 'userName': '得到', 'mobile': '155554465559', 'city': '深圳市', 'detail': '11', 'area': '罗湖区', 'province': '广东省', 'defaultAddress': False, 'accessToken': '7cf50bd4dc5747a58433163366d3c8a3', 'appVersion': '3.14.1', 'appPlatform': 'android'}
+2018-12-05 21:12:33,520 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 0,
+  "data": false,
+  "errmsg": null
+}
+2018-12-05 21:12:35,907 run_main.py--> go_no_run 20: INFO ----->第12个case-->查看地址: 测试通过
+2018-12-05 21:12:35,907 run_main.py--> go_no_run 20: INFO ----->url--> https://capimall.jcease.com/api/shop/v3/address/list
+2018-12-05 21:12:35,907 run_main.py--> go_no_run 20: INFO ----->request_data-->{'accessToken': '7cf50bd4dc5747a58433163366d3c8a3', 'appVersion': '3.14.1', 'appPlatform': 'android'}
+2018-12-05 21:12:35,908 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 0,
+  "data": [
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10663,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10662,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "罗湖区",
+      "city": "深圳市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10660,
+      "mobile": "15555446555",
+      "province": "广东省",
+      "provinceId": "440000",
+      "userName": "得到",
+      "userNo": "2009547"
+    },
+    {
+      "area": "罗湖区",
+      "city": "深圳市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10658,
+      "mobile": "15555446555",
+      "province": "广东省",
+      "provinceId": "440000",
+      "userName": "得到",
+      "userNo": "2009547"
+    },
+    {
+      "area": "罗湖区",
+      "city": "深圳市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10656,
+      "mobile": "15555446555",
+      "province": "广东省",
+      "provinceId": "440000",
+      "userName": "得到",
+      "userNo": "2009547"
+    },
+    {
+      "area": "罗湖区",
+      "city": "深圳市",
+      "defaultAddress": false,
+      "detail": "q",
+      "id": 10654,
+      "mobile": "2",
+      "province": "广东省",
+      "provinceId": "440000",
+      "userName": "1",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10643,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10642,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10638,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10637,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10636,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10635,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10634,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10633,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10632,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10631,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10630,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10629,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10628,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10627,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10626,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10625,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10624,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10623,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10622,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10621,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10620,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10619,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10618,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10617,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10616,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10615,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10614,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10613,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10612,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10611,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10610,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10609,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10608,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10607,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10606,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10605,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10604,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10603,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    }
+  ],
+  "errmsg": ""
+}
+2018-12-05 21:12:37,435 run_main.py--> go_no_run 20: INFO ----->第13个case-->删除地址: 测试失败
+2018-12-05 21:12:37,436 run_main.py--> go_no_run 20: INFO ----->url--> https://capimall.jcease.com/api/shop/address/delete
+2018-12-05 21:12:37,436 run_main.py--> go_no_run 20: INFO ----->request_data-->{'id': 10243, 'accessToken': '7cf50bd4dc5747a58433163366d3c8a3', 'appVersion': '3.14.1', 'appPlatform': 'android'}
+2018-12-05 21:12:37,436 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 30000,
+  "errmsg": ""
+}

@@ -1,0 +1,2226 @@
+2018-12-07 10:22:43,989 run_main.py--> go_no_run 20: INFO ----->第9个case-->金城登录: 测试通过
+2018-12-07 10:22:43,989 run_main.py--> go_no_run 20: INFO ----->url--> http://capijcy.jcease.com/jcy-api/app/system/passwordLogin
+2018-12-07 10:22:43,989 run_main.py--> go_no_run 20: INFO ----->request_data-->{'channelMark': '00_OPPO', 'mobi': '18520350227', 'password': '03761decb8c83294b570fbc917b88729', 'pre': '+86', 'OSType': 'A'}
+2018-12-07 10:22:43,989 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 0,
+  "data": {
+    "accessToken": "1a9ce606351b46d8afc831618252d095",
+    "accessTokenExpires": 1575253524819,
+    "data": {
+      "certificatenum": null,
+      "clientType": "OUTER",
+      "email": null,
+      "headImageUrl": "http://payflie.oss-cn-shanghai.aliyuncs.com/debug/jcease/image/a_15306980639651509716044",
+      "lastUpdated": 1531294368000,
+      "loginChannel": "JCY",
+      "member": null,
+      "merchantName": null,
+      "mobileNo": "18520350227",
+      "name": null,
+      "nickName": "没心没肺",
+      "preMobile": "+86",
+      "registerTime": 1526262840000,
+      "status": 1,
+      "type": null,
+      "userNo": "2009547"
+    },
+    "refreshToken": "1a9ce606351b46d8afc831618252d095",
+    "userNo": "2009547"
+  },
+  "errmsg": null
+}
+2018-12-07 10:22:44,380 run_main.py--> go_no_run 20: INFO ----->第10个case-->创建收货地址: 测试通过
+2018-12-07 10:22:44,380 run_main.py--> go_no_run 20: INFO ----->url--> https://capimall.jcease.com/api/shop/v4/address/save
+2018-12-07 10:22:44,381 run_main.py--> go_no_run 20: INFO ----->request_data-->{'detail': '11', 'userName': '2', 'mobile': '155554465555', 'area': '滨江区', 'city': '杭州市', 'province': '浙江省', 'defaultAddress': False, 'accessToken': '1a9ce606351b46d8afc831618252d095', 'appVersion': '3.14.1', 'appPlatform': 'android'}
+2018-12-07 10:22:44,381 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 0,
+  "data": true,
+  "errmsg": null
+}
+2018-12-07 10:22:44,547 run_main.py--> go_no_run 20: INFO ----->第11个case-->修改地址: 测试通过
+2018-12-07 10:22:44,547 run_main.py--> go_no_run 20: INFO ----->url--> https://capimall.jcease.com/api/shop/v4/address/update
+2018-12-07 10:22:44,547 run_main.py--> go_no_run 20: INFO ----->request_data-->{'id': 10243, 'userName': '得到', 'mobile': '155554465559', 'city': '深圳市', 'detail': '11', 'area': '罗湖区', 'province': '广东省', 'defaultAddress': False, 'accessToken': '1a9ce606351b46d8afc831618252d095', 'appVersion': '3.14.1', 'appPlatform': 'android'}
+2018-12-07 10:22:44,547 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 0,
+  "data": false,
+  "errmsg": null
+}
+2018-12-07 10:22:47,158 run_main.py--> go_no_run 20: INFO ----->第12个case-->查看地址: 测试通过
+2018-12-07 10:22:47,159 run_main.py--> go_no_run 20: INFO ----->url--> https://capimall.jcease.com/api/shop/v3/address/list
+2018-12-07 10:22:47,159 run_main.py--> go_no_run 20: INFO ----->request_data-->{'accessToken': '1a9ce606351b46d8afc831618252d095', 'appVersion': '3.14.1', 'appPlatform': 'android'}
+2018-12-07 10:22:47,159 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 0,
+  "data": [
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10698,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10697,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10696,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10695,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10694,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10693,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10692,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10691,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10690,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10689,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10688,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10687,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10686,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10685,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10684,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10683,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10682,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10681,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10680,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10679,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10678,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10677,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10676,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10672,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10671,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10670,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10669,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10668,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10667,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10666,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10665,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10664,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10663,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10662,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "罗湖区",
+      "city": "深圳市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10660,
+      "mobile": "15555446555",
+      "province": "广东省",
+      "provinceId": "440000",
+      "userName": "得到",
+      "userNo": "2009547"
+    },
+    {
+      "area": "罗湖区",
+      "city": "深圳市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10658,
+      "mobile": "15555446555",
+      "province": "广东省",
+      "provinceId": "440000",
+      "userName": "得到",
+      "userNo": "2009547"
+    },
+    {
+      "area": "罗湖区",
+      "city": "深圳市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10656,
+      "mobile": "15555446555",
+      "province": "广东省",
+      "provinceId": "440000",
+      "userName": "得到",
+      "userNo": "2009547"
+    },
+    {
+      "area": "罗湖区",
+      "city": "深圳市",
+      "defaultAddress": false,
+      "detail": "q",
+      "id": 10654,
+      "mobile": "2",
+      "province": "广东省",
+      "provinceId": "440000",
+      "userName": "1",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10643,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10642,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10638,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10637,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10636,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10635,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10634,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10633,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10632,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10631,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10630,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10629,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10628,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10627,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10626,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10625,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10624,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10623,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10622,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10621,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10620,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10619,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10618,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10617,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10616,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10615,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10614,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10613,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10612,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10611,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10610,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10609,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10608,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10607,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10606,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10605,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10604,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10603,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    }
+  ],
+  "errmsg": ""
+}
+2018-12-07 10:22:47,462 run_main.py--> go_no_run 20: INFO ----->第13个case-->删除地址: 测试失败
+2018-12-07 10:22:47,462 run_main.py--> go_no_run 20: INFO ----->url--> https://capimall.jcease.com/api/shop/address/delete
+2018-12-07 10:22:47,462 run_main.py--> go_no_run 20: INFO ----->request_data-->{'id': 10243, 'accessToken': '1a9ce606351b46d8afc831618252d095', 'appVersion': '3.14.1', 'appPlatform': 'android'}
+2018-12-07 10:22:47,463 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 30000,
+  "errmsg": ""
+}
+2018-12-07 10:23:36,511 run_main.py--> go_no_run 20: INFO ----->第9个case-->金城登录: 测试通过
+2018-12-07 10:23:36,511 run_main.py--> go_no_run 20: INFO ----->url--> http://capijcy.jcease.com/jcy-api/app/system/passwordLogin
+2018-12-07 10:23:36,512 run_main.py--> go_no_run 20: INFO ----->request_data-->{'channelMark': '00_OPPO', 'mobi': '18520350227', 'password': '03761decb8c83294b570fbc917b88729', 'pre': '+86', 'OSType': 'A'}
+2018-12-07 10:23:36,512 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 0,
+  "data": {
+    "accessToken": "c45467c2e73441fe94ec22e91590a209",
+    "accessTokenExpires": 1575253577366,
+    "data": {
+      "certificatenum": null,
+      "clientType": "OUTER",
+      "email": null,
+      "headImageUrl": "http://payflie.oss-cn-shanghai.aliyuncs.com/debug/jcease/image/a_15306980639651509716044",
+      "lastUpdated": 1531294368000,
+      "loginChannel": "JCY",
+      "member": null,
+      "merchantName": null,
+      "mobileNo": "18520350227",
+      "name": null,
+      "nickName": "没心没肺",
+      "preMobile": "+86",
+      "registerTime": 1526262840000,
+      "status": 1,
+      "type": null,
+      "userNo": "2009547"
+    },
+    "refreshToken": "c45467c2e73441fe94ec22e91590a209",
+    "userNo": "2009547"
+  },
+  "errmsg": null
+}
+2018-12-07 10:23:36,664 run_main.py--> go_no_run 20: INFO ----->第10个case-->创建收货地址: 测试通过
+2018-12-07 10:23:36,665 run_main.py--> go_no_run 20: INFO ----->url--> https://capimall.jcease.com/api/shop/v4/address/save
+2018-12-07 10:23:36,665 run_main.py--> go_no_run 20: INFO ----->request_data-->{'detail': '11', 'userName': '2', 'mobile': '155554465555', 'area': '滨江区', 'city': '杭州市', 'province': '浙江省', 'defaultAddress': False, 'accessToken': 'c45467c2e73441fe94ec22e91590a209', 'appVersion': '3.14.1', 'appPlatform': 'android'}
+2018-12-07 10:23:36,665 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 0,
+  "data": true,
+  "errmsg": null
+}
+2018-12-07 10:23:36,815 run_main.py--> go_no_run 20: INFO ----->第11个case-->修改地址: 测试通过
+2018-12-07 10:23:36,816 run_main.py--> go_no_run 20: INFO ----->url--> https://capimall.jcease.com/api/shop/v4/address/update
+2018-12-07 10:23:36,816 run_main.py--> go_no_run 20: INFO ----->request_data-->{'id': 10243, 'userName': '得到', 'mobile': '155554465559', 'city': '深圳市', 'detail': '11', 'area': '罗湖区', 'province': '广东省', 'defaultAddress': False, 'accessToken': 'c45467c2e73441fe94ec22e91590a209', 'appVersion': '3.14.1', 'appPlatform': 'android'}
+2018-12-07 10:23:36,816 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 0,
+  "data": false,
+  "errmsg": null
+}
+2018-12-07 10:23:39,264 run_main.py--> go_no_run 20: INFO ----->第12个case-->查看地址: 测试通过
+2018-12-07 10:23:39,264 run_main.py--> go_no_run 20: INFO ----->url--> https://capimall.jcease.com/api/shop/v3/address/list
+2018-12-07 10:23:39,264 run_main.py--> go_no_run 20: INFO ----->request_data-->{'accessToken': 'c45467c2e73441fe94ec22e91590a209', 'appVersion': '3.14.1', 'appPlatform': 'android'}
+2018-12-07 10:23:39,264 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 0,
+  "data": [
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10699,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10698,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10697,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10696,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10695,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10694,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10693,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10692,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10691,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10690,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10689,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10688,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10687,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10686,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10685,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10684,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10683,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10682,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10681,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10680,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10679,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10678,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10677,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10676,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10672,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10671,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10670,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10669,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10668,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10667,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10666,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10665,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10664,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10663,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10662,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "罗湖区",
+      "city": "深圳市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10660,
+      "mobile": "15555446555",
+      "province": "广东省",
+      "provinceId": "440000",
+      "userName": "得到",
+      "userNo": "2009547"
+    },
+    {
+      "area": "罗湖区",
+      "city": "深圳市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10658,
+      "mobile": "15555446555",
+      "province": "广东省",
+      "provinceId": "440000",
+      "userName": "得到",
+      "userNo": "2009547"
+    },
+    {
+      "area": "罗湖区",
+      "city": "深圳市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10656,
+      "mobile": "15555446555",
+      "province": "广东省",
+      "provinceId": "440000",
+      "userName": "得到",
+      "userNo": "2009547"
+    },
+    {
+      "area": "罗湖区",
+      "city": "深圳市",
+      "defaultAddress": false,
+      "detail": "q",
+      "id": 10654,
+      "mobile": "2",
+      "province": "广东省",
+      "provinceId": "440000",
+      "userName": "1",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10643,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10642,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10638,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10637,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10636,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10635,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10634,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10633,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10632,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10631,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10630,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10629,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10628,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10627,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10626,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10625,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10624,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10623,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10622,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10621,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10620,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10619,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10618,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10617,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10616,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10615,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10614,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10613,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10612,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10611,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10610,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10609,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10608,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10607,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10606,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10605,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10604,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    },
+    {
+      "area": "滨江区",
+      "city": "杭州市",
+      "defaultAddress": false,
+      "detail": "11",
+      "id": 10603,
+      "mobile": "155554465555",
+      "province": "浙江省",
+      "provinceId": "330000",
+      "userName": "2",
+      "userNo": "2009547"
+    }
+  ],
+  "errmsg": ""
+}
+2018-12-07 10:23:39,450 run_main.py--> go_no_run 20: INFO ----->第13个case-->删除地址: 测试失败
+2018-12-07 10:23:39,450 run_main.py--> go_no_run 20: INFO ----->url--> https://capimall.jcease.com/api/shop/address/delete
+2018-12-07 10:23:39,451 run_main.py--> go_no_run 20: INFO ----->request_data-->{'id': 10243, 'accessToken': 'c45467c2e73441fe94ec22e91590a209', 'appVersion': '3.14.1', 'appPlatform': 'android'}
+2018-12-07 10:23:39,451 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": 30000,
+  "errmsg": ""
+}
+2018-12-07 10:30:47,752 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试失败
+2018-12-07 10:30:47,753 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/planapi/api/enquiryOrder/addOrUpdateEnquiryOrder
+2018-12-07 10:30:47,753 run_main.py--> go_no_run 20: INFO ----->request_data-->{'enquiryOrder': {'customer': '40288130624b5a5a01624b73e4ec0022', 'customname': '测试1', 'enterprise': '4028813062b507430162c727eb4c00e2', 'enterprisename': '诸暨裕大贸易有限公司', 'createuser': '邓丹芳', 'createdate': '', 'createtime': '', 'status': '', 'checkuser': '', 'checkdate': '', 'checktime': '', 'checkadvice': '', 'sumordernum': 0, 'sumamount': '', 'memos': '', 'customerorderno': '', 'enquirydate': '2018-10-30T01:33:44.000Z', 'enquiryenddate': '2018-10-31T16:00:00.000Z', 'paymethod': '1', 'receiveaddress': '', 'supplydate': '', 'warrantydate': '', 'enclosure': '[]', 'isspecify': '0', 'salesid': 2481, 'businesstype': 0, 'salesman': '邓丹芳'}, 'enquiryOrderItems': [{'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '1', 'material': None, 'materialno': None, 'custommaterialno': 'A00001', 'materialname': '塑壳断路器', 'materialrule': 'NSX160S Mic2.2 3P 3D 100A', 'materialsize': 'LV430391X22100', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 5, 'warrantydate': None, 'supplydate': None, 'memos': '测试1', 'department': '测试单位1', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '2', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 4, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊2', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '3', 'material': None, 'materialno': None, 'custommaterialno': '00100009', 'materialname': '不倒翁卷笔刀', 'materialrule': '3XX', 'materialsize': '4SIZE', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 6, 'warrantydate': None, 'supplydate': None, 'memos': '', 'department': '测试单位3', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商2', 'itemno': '4', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 7, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊3', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}]}
+2018-12-07 10:30:47,754 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "1003",
+  "data": {
+    "message": "工作流调用出错"
+  },
+  "message": "工作流调用出错"
+}
+2018-12-07 10:31:32,761 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试失败
+2018-12-07 10:31:32,762 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/planapi/api/enquiryOrder/addOrUpdateEnquiryOrder
+2018-12-07 10:31:32,762 run_main.py--> go_no_run 20: INFO ----->request_data-->{'enquiryOrder': {'customer': '40288130624b5a5a01624b73e4ec0022', 'customname': '测试1', 'enterprise': '4028813062b507430162c727eb4c00e2', 'enterprisename': '诸暨裕大贸易有限公司', 'createuser': '邓丹芳', 'createdate': '', 'createtime': '', 'status': '', 'checkuser': '', 'checkdate': '', 'checktime': '', 'checkadvice': '', 'sumordernum': 0, 'sumamount': '', 'memos': '', 'customerorderno': '', 'enquirydate': '2018-10-30T01:33:44.000Z', 'enquiryenddate': '2018-10-31T16:00:00.000Z', 'paymethod': '1', 'receiveaddress': '', 'supplydate': '', 'warrantydate': '', 'enclosure': '[]', 'isspecify': '0', 'salesid': 2481, 'businesstype': 0, 'salesman': '邓丹芳'}, 'enquiryOrderItems': [{'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '1', 'material': None, 'materialno': None, 'custommaterialno': 'A00001', 'materialname': '塑壳断路器', 'materialrule': 'NSX160S Mic2.2 3P 3D 100A', 'materialsize': 'LV430391X22100', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 5, 'warrantydate': None, 'supplydate': None, 'memos': '测试1', 'department': '测试单位1', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '2', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 4, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊2', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '3', 'material': None, 'materialno': None, 'custommaterialno': '00100009', 'materialname': '不倒翁卷笔刀', 'materialrule': '3XX', 'materialsize': '4SIZE', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 6, 'warrantydate': None, 'supplydate': None, 'memos': '', 'department': '测试单位3', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商2', 'itemno': '4', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 7, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊3', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}]}
+2018-12-07 10:31:32,762 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "1003",
+  "data": {
+    "message": "工作流调用出错"
+  },
+  "message": "工作流调用出错"
+}
+2018-12-07 10:33:25,707 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试失败
+2018-12-07 10:33:25,707 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/planapi/api/enquiryOrder/addOrUpdateEnquiryOrder
+2018-12-07 10:33:25,708 run_main.py--> go_no_run 20: INFO ----->request_data-->{'enquiryOrder': {'customer': '40288130624b5a5a01624b73e4ec0022', 'customname': '测试1', 'enterprise': '4028813062b507430162c727eb4c00e2', 'enterprisename': '诸暨裕大贸易有限公司', 'createuser': '邓丹芳', 'createdate': '', 'createtime': '', 'status': '', 'checkuser': '', 'checkdate': '', 'checktime': '', 'checkadvice': '', 'sumordernum': 0, 'sumamount': '', 'memos': '', 'customerorderno': '', 'enquirydate': '2018-10-30T01:33:44.000Z', 'enquiryenddate': '2018-10-31T16:00:00.000Z', 'paymethod': '1', 'receiveaddress': '', 'supplydate': '', 'warrantydate': '', 'enclosure': '[]', 'isspecify': '0', 'salesid': 2481, 'businesstype': 0, 'salesman': '邓丹芳'}, 'enquiryOrderItems': [{'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '1', 'material': None, 'materialno': None, 'custommaterialno': 'A00001', 'materialname': '塑壳断路器', 'materialrule': 'NSX160S Mic2.2 3P 3D 100A', 'materialsize': 'LV430391X22100', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 5, 'warrantydate': None, 'supplydate': None, 'memos': '测试1', 'department': '测试单位1', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '2', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 4, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊2', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '3', 'material': None, 'materialno': None, 'custommaterialno': '00100009', 'materialname': '不倒翁卷笔刀', 'materialrule': '3XX', 'materialsize': '4SIZE', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 6, 'warrantydate': None, 'supplydate': None, 'memos': '', 'department': '测试单位3', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商2', 'itemno': '4', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 7, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊3', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}]}
+2018-12-07 10:33:25,708 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "1003",
+  "data": {
+    "message": "工作流调用出错"
+  },
+  "message": "工作流调用出错"
+}
+2018-12-07 10:35:15,974 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试失败
+2018-12-07 10:35:15,975 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/planapi/api/enquiryOrder/addOrUpdateEnquiryOrder
+2018-12-07 10:35:15,975 run_main.py--> go_no_run 20: INFO ----->request_data-->{'enquiryOrder': {'customer': '40288130624b5a5a01624b73e4ec0022', 'customname': '测试1', 'enterprise': '4028813062b507430162c727eb4c00e2', 'enterprisename': '诸暨裕大贸易有限公司', 'createuser': '邓丹芳', 'createdate': '', 'createtime': '', 'status': '', 'checkuser': '', 'checkdate': '', 'checktime': '', 'checkadvice': '', 'sumordernum': 0, 'sumamount': '', 'memos': '', 'customerorderno': '', 'enquirydate': '2018-10-30T01:33:44.000Z', 'enquiryenddate': '2018-10-31T16:00:00.000Z', 'paymethod': '1', 'receiveaddress': '', 'supplydate': '', 'warrantydate': '', 'enclosure': '[]', 'isspecify': '0', 'salesid': 2481, 'businesstype': 0, 'salesman': '邓丹芳'}, 'enquiryOrderItems': [{'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '1', 'material': None, 'materialno': None, 'custommaterialno': 'A00001', 'materialname': '塑壳断路器', 'materialrule': 'NSX160S Mic2.2 3P 3D 100A', 'materialsize': 'LV430391X22100', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 5, 'warrantydate': None, 'supplydate': None, 'memos': '测试1', 'department': '测试单位1', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '2', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 4, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊2', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '3', 'material': None, 'materialno': None, 'custommaterialno': '00100009', 'materialname': '不倒翁卷笔刀', 'materialrule': '3XX', 'materialsize': '4SIZE', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 6, 'warrantydate': None, 'supplydate': None, 'memos': '', 'department': '测试单位3', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商2', 'itemno': '4', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 7, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊3', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}]}
+2018-12-07 10:35:15,975 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "1003",
+  "data": {
+    "message": "工作流调用出错"
+  },
+  "message": "工作流调用出错"
+}
+2018-12-07 10:37:29,114 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试失败
+2018-12-07 10:37:29,114 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/planapi/api/enquiryOrder/addOrUpdateEnquiryOrder
+2018-12-07 10:37:29,115 run_main.py--> go_no_run 20: INFO ----->request_data-->{'enquiryOrder': {'customer': '40288130624b5a5a01624b73e4ec0022', 'customname': '测试1', 'enterprise': '4028813062b507430162c727eb4c00e2', 'enterprisename': '诸暨裕大贸易有限公司', 'createuser': '邓丹芳', 'createdate': '', 'createtime': '', 'status': '', 'checkuser': '', 'checkdate': '', 'checktime': '', 'checkadvice': '', 'sumordernum': 0, 'sumamount': '', 'memos': '', 'customerorderno': '', 'enquirydate': '2018-10-30T01:33:44.000Z', 'enquiryenddate': '2018-10-31T16:00:00.000Z', 'paymethod': '1', 'receiveaddress': '', 'supplydate': '', 'warrantydate': '', 'enclosure': '[]', 'isspecify': '0', 'salesid': 2481, 'businesstype': 0, 'salesman': '邓丹芳'}, 'enquiryOrderItems': [{'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '1', 'material': None, 'materialno': None, 'custommaterialno': 'A00001', 'materialname': '塑壳断路器', 'materialrule': 'NSX160S Mic2.2 3P 3D 100A', 'materialsize': 'LV430391X22100', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 5, 'warrantydate': None, 'supplydate': None, 'memos': '测试1', 'department': '测试单位1', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '2', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 4, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊2', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '3', 'material': None, 'materialno': None, 'custommaterialno': '00100009', 'materialname': '不倒翁卷笔刀', 'materialrule': '3XX', 'materialsize': '4SIZE', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 6, 'warrantydate': None, 'supplydate': None, 'memos': '', 'department': '测试单位3', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商2', 'itemno': '4', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 7, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊3', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}]}
+2018-12-07 10:37:29,115 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "1003",
+  "data": {
+    "message": "工作流调用出错"
+  },
+  "message": "工作流调用出错"
+}
+2018-12-07 10:45:21,578 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试失败
+2018-12-07 10:45:21,579 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/planapi/api/enquiryOrder/addOrUpdateEnquiryOrder
+2018-12-07 10:45:21,579 run_main.py--> go_no_run 20: INFO ----->request_data-->{'enquiryOrder': {'customer': '40288130624b5a5a01624b73e4ec0022', 'customname': '测试1', 'enterprise': '4028813062b507430162c727eb4c00e2', 'enterprisename': '诸暨裕大贸易有限公司', 'createuser': '邓丹芳', 'createdate': '', 'createtime': '', 'status': '', 'checkuser': '', 'checkdate': '', 'checktime': '', 'checkadvice': '', 'sumordernum': 0, 'sumamount': '', 'memos': '', 'customerorderno': '', 'enquirydate': '2018-10-30T01:33:44.000Z', 'enquiryenddate': '2018-10-31T16:00:00.000Z', 'paymethod': '1', 'receiveaddress': '', 'supplydate': '', 'warrantydate': '', 'enclosure': '[]', 'isspecify': '0', 'salesid': 2481, 'businesstype': 0, 'salesman': '邓丹芳'}, 'enquiryOrderItems': [{'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '1', 'material': None, 'materialno': None, 'custommaterialno': 'A00001', 'materialname': '塑壳断路器', 'materialrule': 'NSX160S Mic2.2 3P 3D 100A', 'materialsize': 'LV430391X22100', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 5, 'warrantydate': None, 'supplydate': None, 'memos': '测试1', 'department': '测试单位1', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '2', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 4, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊2', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '3', 'material': None, 'materialno': None, 'custommaterialno': '00100009', 'materialname': '不倒翁卷笔刀', 'materialrule': '3XX', 'materialsize': '4SIZE', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 6, 'warrantydate': None, 'supplydate': None, 'memos': '', 'department': '测试单位3', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商2', 'itemno': '4', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 7, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊3', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}]}
+2018-12-07 10:45:21,579 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "1003",
+  "data": {
+    "message": "工作流调用出错"
+  },
+  "message": "工作流调用出错"
+}
+2018-12-07 11:16:02,600 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试失败
+2018-12-07 11:16:02,600 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/planapi/api/enquiryOrder/addOrUpdateEnquiryOrder
+2018-12-07 11:16:02,600 run_main.py--> go_no_run 20: INFO ----->request_data-->{'enquiryOrder': {'customer': '40288130624b5a5a01624b73e4ec0022', 'customname': '测试1', 'enterprise': '4028813062b507430162c727eb4c00e2', 'enterprisename': '诸暨裕大贸易有限公司', 'createuser': '邓丹芳', 'createdate': '', 'createtime': '', 'status': '', 'checkuser': '', 'checkdate': '', 'checktime': '', 'checkadvice': '', 'sumordernum': 0, 'sumamount': '', 'memos': '', 'customerorderno': '', 'enquirydate': '2018-10-30T01:33:44.000Z', 'enquiryenddate': '2018-10-31T16:00:00.000Z', 'paymethod': '1', 'receiveaddress': '', 'supplydate': '', 'warrantydate': '', 'enclosure': '[]', 'isspecify': '0', 'salesid': 2481, 'businesstype': 0, 'salesman': '邓丹芳'}, 'enquiryOrderItems': [{'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '1', 'material': None, 'materialno': None, 'custommaterialno': 'A00001', 'materialname': '塑壳断路器', 'materialrule': 'NSX160S Mic2.2 3P 3D 100A', 'materialsize': 'LV430391X22100', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 5, 'warrantydate': None, 'supplydate': None, 'memos': '测试1', 'department': '测试单位1', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '2', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 4, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊2', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '3', 'material': None, 'materialno': None, 'custommaterialno': '00100009', 'materialname': '不倒翁卷笔刀', 'materialrule': '3XX', 'materialsize': '4SIZE', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 6, 'warrantydate': None, 'supplydate': None, 'memos': '', 'department': '测试单位3', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商2', 'itemno': '4', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 7, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊3', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}]}
+2018-12-07 11:16:02,601 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "1003",
+  "data": {
+    "message": "工作流调用出错"
+  },
+  "message": "工作流调用出错"
+}
+2018-12-07 12:09:55,616 run_main.py--> go_no_run 20: INFO ----->第14个case-->获取session: 测试通过
+2018-12-07 12:09:55,617 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com
+2018-12-07 12:09:55,617 run_main.py--> go_no_run 20: INFO ----->request_data-->None
+2018-12-07 12:09:55,617 run_main.py--> go_no_run 20: INFO ----->response_data-->Aa12345678
+2018-12-07 12:09:56,162 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试失败
+2018-12-07 12:09:56,162 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/planapi/api/enquiryOrder/addOrUpdateEnquiryOrder
+2018-12-07 12:09:56,163 run_main.py--> go_no_run 20: INFO ----->request_data-->{'enquiryOrder': {'customer': '40288130624b5a5a01624b73e4ec0022', 'customname': '测试1', 'enterprise': '4028813062b507430162c727eb4c00e2', 'enterprisename': '诸暨裕大贸易有限公司', 'createuser': '邓丹芳', 'createdate': '', 'createtime': '', 'status': '', 'checkuser': '', 'checkdate': '', 'checktime': '', 'checkadvice': '', 'sumordernum': 0, 'sumamount': '', 'memos': '', 'customerorderno': '', 'enquirydate': '2018-10-30T01:33:44.000Z', 'enquiryenddate': '2018-10-31T16:00:00.000Z', 'paymethod': '1', 'receiveaddress': '', 'supplydate': '', 'warrantydate': '', 'enclosure': '[]', 'isspecify': '0', 'salesid': 2481, 'businesstype': 0, 'salesman': '邓丹芳'}, 'enquiryOrderItems': [{'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '1', 'material': None, 'materialno': None, 'custommaterialno': 'A00001', 'materialname': '塑壳断路器', 'materialrule': 'NSX160S Mic2.2 3P 3D 100A', 'materialsize': 'LV430391X22100', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 5, 'warrantydate': None, 'supplydate': None, 'memos': '测试1', 'department': '测试单位1', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '2', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 4, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊2', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '3', 'material': None, 'materialno': None, 'custommaterialno': '00100009', 'materialname': '不倒翁卷笔刀', 'materialrule': '3XX', 'materialsize': '4SIZE', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 6, 'warrantydate': None, 'supplydate': None, 'memos': '', 'department': '测试单位3', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商2', 'itemno': '4', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 7, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊3', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}]}
+2018-12-07 12:09:56,163 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "200",
+  "data": "EQ20181207001650",
+  "message": "成功"
+}
+2018-12-07 12:10:23,166 run_main.py--> go_no_run 20: INFO ----->第14个case-->获取session: 测试通过
+2018-12-07 12:10:23,167 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com
+2018-12-07 12:10:23,167 run_main.py--> go_no_run 20: INFO ----->request_data-->None
+2018-12-07 12:10:23,167 run_main.py--> go_no_run 20: INFO ----->response_data-->Aa12345678
+2018-12-07 12:10:23,515 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试失败
+2018-12-07 12:10:23,516 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/planapi/api/enquiryOrder/addOrUpdateEnquiryOrder
+2018-12-07 12:10:23,516 run_main.py--> go_no_run 20: INFO ----->request_data-->{'enquiryOrder': {'customer': '40288130624b5a5a01624b73e4ec0022', 'customname': '测试1', 'enterprise': '4028813062b507430162c727eb4c00e2', 'enterprisename': '诸暨裕大贸易有限公司', 'createuser': '邓丹芳', 'createdate': '', 'createtime': '', 'status': '', 'checkuser': '', 'checkdate': '', 'checktime': '', 'checkadvice': '', 'sumordernum': 0, 'sumamount': '', 'memos': '', 'customerorderno': '', 'enquirydate': '2018-10-30T01:33:44.000Z', 'enquiryenddate': '2018-10-31T16:00:00.000Z', 'paymethod': '1', 'receiveaddress': '', 'supplydate': '', 'warrantydate': '', 'enclosure': '[]', 'isspecify': '0', 'salesid': 2481, 'businesstype': 0, 'salesman': '邓丹芳'}, 'enquiryOrderItems': [{'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '1', 'material': None, 'materialno': None, 'custommaterialno': 'A00001', 'materialname': '塑壳断路器', 'materialrule': 'NSX160S Mic2.2 3P 3D 100A', 'materialsize': 'LV430391X22100', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 5, 'warrantydate': None, 'supplydate': None, 'memos': '测试1', 'department': '测试单位1', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '2', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 4, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊2', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '3', 'material': None, 'materialno': None, 'custommaterialno': '00100009', 'materialname': '不倒翁卷笔刀', 'materialrule': '3XX', 'materialsize': '4SIZE', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 6, 'warrantydate': None, 'supplydate': None, 'memos': '', 'department': '测试单位3', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商2', 'itemno': '4', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 7, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊3', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}]}
+2018-12-07 12:10:23,517 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "200",
+  "data": "EQ20181207001651",
+  "message": "成功"
+}
+2018-12-07 12:11:58,696 run_main.py--> go_no_run 20: INFO ----->第14个case-->获取session: 测试通过
+2018-12-07 12:11:58,696 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com
+2018-12-07 12:11:58,697 run_main.py--> go_no_run 20: INFO ----->request_data-->None
+2018-12-07 12:11:58,697 run_main.py--> go_no_run 20: INFO ----->response_data-->Aa12345678
+2018-12-07 12:11:58,966 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试通过
+2018-12-07 12:11:58,967 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/planapi/api/enquiryOrder/addOrUpdateEnquiryOrder
+2018-12-07 12:11:58,967 run_main.py--> go_no_run 20: INFO ----->request_data-->{'enquiryOrder': {'customer': '40288130624b5a5a01624b73e4ec0022', 'customname': '测试1', 'enterprise': '4028813062b507430162c727eb4c00e2', 'enterprisename': '诸暨裕大贸易有限公司', 'createuser': '邓丹芳', 'createdate': '', 'createtime': '', 'status': '', 'checkuser': '', 'checkdate': '', 'checktime': '', 'checkadvice': '', 'sumordernum': 0, 'sumamount': '', 'memos': '', 'customerorderno': '', 'enquirydate': '2018-10-30T01:33:44.000Z', 'enquiryenddate': '2018-10-31T16:00:00.000Z', 'paymethod': '1', 'receiveaddress': '', 'supplydate': '', 'warrantydate': '', 'enclosure': '[]', 'isspecify': '0', 'salesid': 2481, 'businesstype': 0, 'salesman': '邓丹芳'}, 'enquiryOrderItems': [{'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '1', 'material': None, 'materialno': None, 'custommaterialno': 'A00001', 'materialname': '塑壳断路器', 'materialrule': 'NSX160S Mic2.2 3P 3D 100A', 'materialsize': 'LV430391X22100', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 5, 'warrantydate': None, 'supplydate': None, 'memos': '测试1', 'department': '测试单位1', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '2', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 4, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊2', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '3', 'material': None, 'materialno': None, 'custommaterialno': '00100009', 'materialname': '不倒翁卷笔刀', 'materialrule': '3XX', 'materialsize': '4SIZE', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 6, 'warrantydate': None, 'supplydate': None, 'memos': '', 'department': '测试单位3', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商2', 'itemno': '4', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 7, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊3', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}]}
+2018-12-07 12:11:58,967 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "200",
+  "data": "EQ20181207001652",
+  "message": "成功"
+}
+2018-12-07 14:00:40,271 run_main.py--> go_no_run 20: INFO ----->第14个case-->获取session: 测试通过
+2018-12-07 14:00:40,271 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com
+2018-12-07 14:00:40,272 run_main.py--> go_no_run 20: INFO ----->request_data-->None
+2018-12-07 14:00:40,272 run_main.py--> go_no_run 20: INFO ----->response_data-->Aa12345678
+2018-12-07 14:00:40,418 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试失败
+2018-12-07 14:00:40,418 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/planapi/api/enquiryOrder/addOrUpdateEnquiryOrder
+2018-12-07 14:00:40,418 run_main.py--> go_no_run 20: INFO ----->request_data-->{'enquiryOrder': {'customer': '40288130624b5a5a01624b73e4ec0022', 'customname': '测试1', 'enterprise': '4028813062b507430162c727eb4c00e2', 'enterprisename': '诸暨裕大贸易有限公司', 'createuser': '邓丹芳', 'createdate': '', 'createtime': '', 'status': '', 'checkuser': '', 'checkdate': '', 'checktime': '', 'checkadvice': '', 'sumordernum': 0, 'sumamount': '', 'memos': '', 'customerorderno': '', 'enquirydate': '2018-10-30T01:33:44.000Z', 'enquiryenddate': '2018-10-31T16:00:00.000Z', 'paymethod': '1', 'receiveaddress': '', 'supplydate': '', 'warrantydate': '', 'enclosure': '[]', 'isspecify': '0', 'salesid': 2481, 'businesstype': 0, 'salesman': '邓丹芳'}, 'enquiryOrderItems': [{'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '1', 'material': None, 'materialno': None, 'custommaterialno': 'A00001', 'materialname': '塑壳断路器', 'materialrule': 'NSX160S Mic2.2 3P 3D 100A', 'materialsize': 'LV430391X22100', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 5, 'warrantydate': None, 'supplydate': None, 'memos': '测试1', 'department': '测试单位1', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '2', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 4, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊2', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '3', 'material': None, 'materialno': None, 'custommaterialno': '00100009', 'materialname': '不倒翁卷笔刀', 'materialrule': '3XX', 'materialsize': '4SIZE', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 6, 'warrantydate': None, 'supplydate': None, 'memos': '', 'department': '测试单位3', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商2', 'itemno': '4', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 7, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊3', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}]}
+2018-12-07 14:00:40,419 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "1003",
+  "data": {
+    "message": "业务主体不能为空"
+  },
+  "message": "业务主体不能为空"
+}
+2018-12-07 14:20:41,516 run_main.py--> go_no_run 20: INFO ----->第14个case-->获取session: 测试通过
+2018-12-07 14:20:41,516 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com
+2018-12-07 14:20:41,516 run_main.py--> go_no_run 20: INFO ----->request_data-->None
+2018-12-07 14:20:41,517 run_main.py--> go_no_run 20: INFO ----->response_data-->Aa12345678
+2018-12-07 14:20:41,875 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试通过
+2018-12-07 14:20:41,875 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/planapi/api/enquiryOrder/addOrUpdateEnquiryOrder
+2018-12-07 14:20:41,876 run_main.py--> go_no_run 20: INFO ----->request_data-->{'enquiryOrder': {'customer': '40288130624b5a5a01624b73e4ec0022', 'customname': '测试1', 'enterprise': '4028813062b507430162c727eb4c00e2', 'enterprisename': '诸暨裕大贸易有限公司', 'createuser': '邓丹芳', 'createdate': '', 'createtime': '', 'status': '', 'checkuser': '', 'checkdate': '', 'checktime': '', 'checkadvice': '', 'sumordernum': 0, 'sumamount': '', 'memos': '', 'customerorderno': '', 'enquirydate': '2018-10-30T01:33:44.000Z', 'enquiryenddate': '2018-10-31T16:00:00.000Z', 'paymethod': '1', 'receiveaddress': '', 'supplydate': '', 'warrantydate': '', 'enclosure': '[]', 'isspecify': '0', 'salesid': 2481, 'businesstype': 0, 'salesman': '邓丹芳'}, 'enquiryOrderItems': [{'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '1', 'material': None, 'materialno': None, 'custommaterialno': 'A00001', 'materialname': '塑壳断路器', 'materialrule': 'NSX160S Mic2.2 3P 3D 100A', 'materialsize': 'LV430391X22100', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 5, 'warrantydate': None, 'supplydate': None, 'memos': '测试1', 'department': '测试单位1', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '2', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 4, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊2', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '3', 'material': None, 'materialno': None, 'custommaterialno': '00100009', 'materialname': '不倒翁卷笔刀', 'materialrule': '3XX', 'materialsize': '4SIZE', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 6, 'warrantydate': None, 'supplydate': None, 'memos': '', 'department': '测试单位3', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商2', 'itemno': '4', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 7, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊3', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}]}
+2018-12-07 14:20:41,876 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "200",
+  "data": "EQ20181207001653",
+  "message": "成功"
+}
+2018-12-07 14:46:05,128 run_main.py--> go_no_run 20: INFO ----->第14个case-->获取session: 测试通过
+2018-12-07 14:46:05,128 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com
+2018-12-07 14:46:05,128 run_main.py--> go_no_run 20: INFO ----->request_data-->None
+2018-12-07 14:46:05,129 run_main.py--> go_no_run 20: INFO ----->response_data-->Aa12345678
+2018-12-07 14:46:05,430 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试通过
+2018-12-07 14:46:05,430 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/planapi/api/enquiryOrder/addOrUpdateEnquiryOrder
+2018-12-07 14:46:05,431 run_main.py--> go_no_run 20: INFO ----->request_data-->{'enquiryOrder': {'customer': '40288130624b5a5a01624b73e4ec0022', 'customname': '测试1', 'enterprise': '4028813062b507430162c727eb4c00e2', 'enterprisename': '诸暨裕大贸易有限公司', 'createuser': '邓丹芳', 'createdate': '', 'createtime': '', 'status': '', 'checkuser': '', 'checkdate': '', 'checktime': '', 'checkadvice': '', 'sumordernum': 0, 'sumamount': '', 'memos': '', 'customerorderno': '', 'enquirydate': '2018-10-30T01:33:44.000Z', 'enquiryenddate': '2018-10-31T16:00:00.000Z', 'paymethod': '1', 'receiveaddress': '', 'supplydate': '', 'warrantydate': '', 'enclosure': '[]', 'isspecify': '0', 'salesid': 2481, 'businesstype': 0, 'salesman': '邓丹芳'}, 'enquiryOrderItems': [{'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '1', 'material': None, 'materialno': None, 'custommaterialno': 'A00001', 'materialname': '塑壳断路器', 'materialrule': 'NSX160S Mic2.2 3P 3D 100A', 'materialsize': 'LV430391X22100', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 5, 'warrantydate': None, 'supplydate': None, 'memos': '测试1', 'department': '测试单位1', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '2', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 4, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊2', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '3', 'material': None, 'materialno': None, 'custommaterialno': '00100009', 'materialname': '不倒翁卷笔刀', 'materialrule': '3XX', 'materialsize': '4SIZE', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 6, 'warrantydate': None, 'supplydate': None, 'memos': '', 'department': '测试单位3', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商2', 'itemno': '4', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 7, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊3', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}]}
+2018-12-07 14:46:05,431 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "200",
+  "data": "EQ20181207001654",
+  "message": "成功"
+}
+2018-12-07 14:46:26,431 run_main.py--> go_no_run 20: INFO ----->第14个case-->获取session: 测试通过
+2018-12-07 14:46:26,431 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com
+2018-12-07 14:46:26,431 run_main.py--> go_no_run 20: INFO ----->request_data-->None
+2018-12-07 14:46:26,431 run_main.py--> go_no_run 20: INFO ----->response_data-->Aa12345678
+2018-12-07 14:46:27,072 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试通过
+2018-12-07 14:46:27,072 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/planapi/api/enquiryOrder/addOrUpdateEnquiryOrder
+2018-12-07 14:46:27,073 run_main.py--> go_no_run 20: INFO ----->request_data-->{'enquiryOrder': {'customer': '40288130624b5a5a01624b73e4ec0022', 'customname': '测试1', 'enterprise': '4028813062b507430162c727eb4c00e2', 'enterprisename': '诸暨裕大贸易有限公司', 'createuser': '邓丹芳', 'createdate': '', 'createtime': '', 'status': '', 'checkuser': '', 'checkdate': '', 'checktime': '', 'checkadvice': '', 'sumordernum': 0, 'sumamount': '', 'memos': '', 'customerorderno': '', 'enquirydate': '2018-10-30T01:33:44.000Z', 'enquiryenddate': '2018-10-31T16:00:00.000Z', 'paymethod': '1', 'receiveaddress': '', 'supplydate': '', 'warrantydate': '', 'enclosure': '[]', 'isspecify': '0', 'salesid': 2481, 'businesstype': 0, 'salesman': '邓丹芳'}, 'enquiryOrderItems': [{'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '1', 'material': None, 'materialno': None, 'custommaterialno': 'A00001', 'materialname': '塑壳断路器', 'materialrule': 'NSX160S Mic2.2 3P 3D 100A', 'materialsize': 'LV430391X22100', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 5, 'warrantydate': None, 'supplydate': None, 'memos': '测试1', 'department': '测试单位1', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '2', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 4, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊2', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '3', 'material': None, 'materialno': None, 'custommaterialno': '00100009', 'materialname': '不倒翁卷笔刀', 'materialrule': '3XX', 'materialsize': '4SIZE', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 6, 'warrantydate': None, 'supplydate': None, 'memos': '', 'department': '测试单位3', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商2', 'itemno': '4', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 7, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊3', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}]}
+2018-12-07 14:46:27,073 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "200",
+  "data": "EQ20181207001655",
+  "message": "成功"
+}
+2018-12-07 15:07:11,147 run_main.py--> go_no_run 20: INFO ----->第14个case-->获取session: 测试通过
+2018-12-07 15:07:11,148 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com
+2018-12-07 15:07:11,148 run_main.py--> go_no_run 20: INFO ----->request_data-->None
+2018-12-07 15:07:11,148 run_main.py--> go_no_run 20: INFO ----->response_data-->Aa12345678
+2018-12-07 15:07:11,800 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试通过
+2018-12-07 15:07:11,800 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/planapi/api/enquiryOrder/addOrUpdateEnquiryOrder
+2018-12-07 15:07:11,800 run_main.py--> go_no_run 20: INFO ----->request_data-->{'enquiryOrder': {'customer': '40288130624b5a5a01624b73e4ec0022', 'customname': '测试1', 'enterprise': '4028813062b507430162c727eb4c00e2', 'enterprisename': '诸暨裕大贸易有限公司', 'createuser': '邓丹芳', 'createdate': '', 'createtime': '', 'status': '', 'checkuser': '', 'checkdate': '', 'checktime': '', 'checkadvice': '', 'sumordernum': 0, 'sumamount': '', 'memos': '', 'customerorderno': '', 'enquirydate': '2018-10-30T01:33:44.000Z', 'enquiryenddate': '2018-10-31T16:00:00.000Z', 'paymethod': '1', 'receiveaddress': '', 'supplydate': '', 'warrantydate': '', 'enclosure': '[]', 'isspecify': '0', 'salesid': 2481, 'businesstype': 0, 'salesman': '邓丹芳'}, 'enquiryOrderItems': [{'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '1', 'material': None, 'materialno': None, 'custommaterialno': 'A00001', 'materialname': '塑壳断路器', 'materialrule': 'NSX160S Mic2.2 3P 3D 100A', 'materialsize': 'LV430391X22100', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 5, 'warrantydate': None, 'supplydate': None, 'memos': '测试1', 'department': '测试单位1', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '2', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 4, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊2', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '3', 'material': None, 'materialno': None, 'custommaterialno': '00100009', 'materialname': '不倒翁卷笔刀', 'materialrule': '3XX', 'materialsize': '4SIZE', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 6, 'warrantydate': None, 'supplydate': None, 'memos': '', 'department': '测试单位3', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商2', 'itemno': '4', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 7, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊3', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}]}
+2018-12-07 15:07:11,801 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "200",
+  "data": "EQ20181207001656",
+  "message": "成功"
+}
+2018-12-07 15:07:14,990 run_main.py--> go_no_run 20: INFO ----->第16个case-->: 测试通过
+2018-12-07 15:07:14,990 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/planapi/api/workFlow/getHistoricComment
+2018-12-07 15:07:14,990 run_main.py--> go_no_run 20: INFO ----->request_data-->{'ticketno': 'EQ20181122001610'}
+2018-12-07 15:07:14,991 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "200",
+  "data": [],
+  "message": "调用API成功"
+}
+2018-12-07 16:20:19,177 run_main.py--> go_no_run 20: INFO ----->第14个case-->获取session: 测试通过
+2018-12-07 16:20:19,177 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com
+2018-12-07 16:20:19,177 run_main.py--> go_no_run 20: INFO ----->request_data-->None
+2018-12-07 16:20:19,178 run_main.py--> go_no_run 20: INFO ----->response_data-->Aa12345678
+2018-12-07 16:21:37,496 run_main.py--> go_no_run 20: INFO ----->第14个case-->获取session: 测试通过
+2018-12-07 16:21:37,496 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com
+2018-12-07 16:21:37,496 run_main.py--> go_no_run 20: INFO ----->request_data-->None
+2018-12-07 16:21:37,496 run_main.py--> go_no_run 20: INFO ----->response_data-->Aa12345678
+2018-12-07 16:21:37,770 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试通过
+2018-12-07 16:21:37,770 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/planapi/api/enquiryOrder/addOrUpdateEnquiryOrder
+2018-12-07 16:21:37,771 run_main.py--> go_no_run 20: INFO ----->request_data-->{'enquiryOrder': {'customer': '40288130624b5a5a01624b73e4ec0022', 'customname': '测试1', 'enterprise': '4028813062b507430162c727eb4c00e2', 'enterprisename': '诸暨裕大贸易有限公司', 'createuser': '邓丹芳', 'createdate': '', 'createtime': '', 'status': '', 'checkuser': '', 'checkdate': '', 'checktime': '', 'checkadvice': '', 'sumordernum': 0, 'sumamount': '', 'memos': '', 'customerorderno': '', 'enquirydate': '2018-10-30T01:33:44.000Z', 'enquiryenddate': '2018-10-31T16:00:00.000Z', 'paymethod': '1', 'receiveaddress': '', 'supplydate': '', 'warrantydate': '', 'enclosure': '[]', 'isspecify': '0', 'salesid': 2481, 'businesstype': 0, 'salesman': '邓丹芳'}, 'enquiryOrderItems': [{'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '1', 'material': None, 'materialno': None, 'custommaterialno': 'A00001', 'materialname': '塑壳断路器', 'materialrule': 'NSX160S Mic2.2 3P 3D 100A', 'materialsize': 'LV430391X22100', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 5, 'warrantydate': None, 'supplydate': None, 'memos': '测试1', 'department': '测试单位1', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '2', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 4, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊2', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '3', 'material': None, 'materialno': None, 'custommaterialno': '00100009', 'materialname': '不倒翁卷笔刀', 'materialrule': '3XX', 'materialsize': '4SIZE', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 6, 'warrantydate': None, 'supplydate': None, 'memos': '', 'department': '测试单位3', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商2', 'itemno': '4', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 7, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊3', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}]}
+2018-12-07 16:21:37,771 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "200",
+  "data": "EQ20181207001657",
+  "message": "成功"
+}
+2018-12-07 18:09:16,513 run_main.py--> go_no_run 20: INFO ----->第14个case-->获取session: 测试通过
+2018-12-07 18:09:16,514 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com
+2018-12-07 18:09:16,514 run_main.py--> go_no_run 20: INFO ----->request_data-->None
+2018-12-07 18:09:16,514 run_main.py--> go_no_run 20: INFO ----->response_data-->Aa12345678
+2018-12-07 18:09:17,113 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试通过
+2018-12-07 18:09:17,114 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/planapi/api/enquiryOrder/addOrUpdateEnquiryOrder
+2018-12-07 18:09:17,114 run_main.py--> go_no_run 20: INFO ----->request_data-->{'enquiryOrder': {'customer': '40288130624b5a5a01624b73e4ec0022', 'customname': '测试1', 'enterprise': '4028813062b507430162c727eb4c00e2', 'enterprisename': '诸暨裕大贸易有限公司', 'createuser': '邓丹芳', 'createdate': '', 'createtime': '', 'status': '', 'checkuser': '', 'checkdate': '', 'checktime': '', 'checkadvice': '', 'sumordernum': 0, 'sumamount': '', 'memos': '', 'customerorderno': '', 'enquirydate': '2018-10-30T01:33:44.000Z', 'enquiryenddate': '2018-10-31T16:00:00.000Z', 'paymethod': '1', 'receiveaddress': '', 'supplydate': '', 'warrantydate': '', 'enclosure': '[]', 'isspecify': '0', 'salesid': 2481, 'businesstype': 0, 'salesman': '邓丹芳'}, 'enquiryOrderItems': [{'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '1', 'material': None, 'materialno': None, 'custommaterialno': 'A00001', 'materialname': '塑壳断路器', 'materialrule': 'NSX160S Mic2.2 3P 3D 100A', 'materialsize': 'LV430391X22100', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 5, 'warrantydate': None, 'supplydate': None, 'memos': '测试1', 'department': '测试单位1', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '2', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 4, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊2', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '3', 'material': None, 'materialno': None, 'custommaterialno': '00100009', 'materialname': '不倒翁卷笔刀', 'materialrule': '3XX', 'materialsize': '4SIZE', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 6, 'warrantydate': None, 'supplydate': None, 'memos': '', 'department': '测试单位3', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商2', 'itemno': '4', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 7, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊3', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}]}
+2018-12-07 18:09:17,115 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "200",
+  "data": "EQ20181207001658",
+  "message": "成功"
+}
+2018-12-07 18:09:58,826 run_main.py--> go_no_run 20: INFO ----->第14个case-->获取session: 测试通过
+2018-12-07 18:09:58,827 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com
+2018-12-07 18:09:58,827 run_main.py--> go_no_run 20: INFO ----->request_data-->None
+2018-12-07 18:09:58,827 run_main.py--> go_no_run 20: INFO ----->response_data-->Aa12345678
+2018-12-07 18:09:59,252 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试通过
+2018-12-07 18:09:59,252 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/planapi/api/enquiryOrder/addOrUpdateEnquiryOrder
+2018-12-07 18:09:59,253 run_main.py--> go_no_run 20: INFO ----->request_data-->{'enquiryOrder': {'customer': '40288130624b5a5a01624b73e4ec0022', 'customname': '测试1', 'enterprise': '4028813062b507430162c727eb4c00e2', 'enterprisename': '诸暨裕大贸易有限公司', 'createuser': '邓丹芳', 'createdate': '', 'createtime': '', 'status': '', 'checkuser': '', 'checkdate': '', 'checktime': '', 'checkadvice': '', 'sumordernum': 0, 'sumamount': '', 'memos': '', 'customerorderno': '', 'enquirydate': '2018-10-30T01:33:44.000Z', 'enquiryenddate': '2018-10-31T16:00:00.000Z', 'paymethod': '1', 'receiveaddress': '', 'supplydate': '', 'warrantydate': '', 'enclosure': '[]', 'isspecify': '0', 'salesid': 2481, 'businesstype': 0, 'salesman': '邓丹芳'}, 'enquiryOrderItems': [{'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '1', 'material': None, 'materialno': None, 'custommaterialno': 'A00001', 'materialname': '塑壳断路器', 'materialrule': 'NSX160S Mic2.2 3P 3D 100A', 'materialsize': 'LV430391X22100', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 5, 'warrantydate': None, 'supplydate': None, 'memos': '测试1', 'department': '测试单位1', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '2', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 4, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊2', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '3', 'material': None, 'materialno': None, 'custommaterialno': '00100009', 'materialname': '不倒翁卷笔刀', 'materialrule': '3XX', 'materialsize': '4SIZE', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 6, 'warrantydate': None, 'supplydate': None, 'memos': '', 'department': '测试单位3', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商2', 'itemno': '4', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 7, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊3', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}]}
+2018-12-07 18:09:59,253 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "200",
+  "data": "EQ20181207001659",
+  "message": "成功"
+}
+2018-12-07 18:11:15,741 run_main.py--> go_no_run 20: INFO ----->第14个case-->获取session: 测试通过
+2018-12-07 18:11:15,742 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com
+2018-12-07 18:11:15,742 run_main.py--> go_no_run 20: INFO ----->request_data-->None
+2018-12-07 18:11:15,742 run_main.py--> go_no_run 20: INFO ----->response_data-->Aa12345678
+2018-12-07 18:11:16,391 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试通过
+2018-12-07 18:11:16,391 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/planapi/api/enquiryOrder/addOrUpdateEnquiryOrder
+2018-12-07 18:11:16,392 run_main.py--> go_no_run 20: INFO ----->request_data-->{'enquiryOrder': {'customer': '40288130624b5a5a01624b73e4ec0022', 'customname': '测试1', 'enterprise': '4028813062b507430162c727eb4c00e2', 'enterprisename': '诸暨裕大贸易有限公司', 'createuser': '邓丹芳', 'createdate': '', 'createtime': '', 'status': '', 'checkuser': '', 'checkdate': '', 'checktime': '', 'checkadvice': '', 'sumordernum': 0, 'sumamount': '', 'memos': '', 'customerorderno': '', 'enquirydate': '2018-10-30T01:33:44.000Z', 'enquiryenddate': '2018-10-31T16:00:00.000Z', 'paymethod': '1', 'receiveaddress': '', 'supplydate': '', 'warrantydate': '', 'enclosure': '[]', 'isspecify': '0', 'salesid': 2481, 'businesstype': 0, 'salesman': '邓丹芳'}, 'enquiryOrderItems': [{'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '1', 'material': None, 'materialno': None, 'custommaterialno': 'A00001', 'materialname': '塑壳断路器', 'materialrule': 'NSX160S Mic2.2 3P 3D 100A', 'materialsize': 'LV430391X22100', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 5, 'warrantydate': None, 'supplydate': None, 'memos': '测试1', 'department': '测试单位1', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '2', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 4, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊2', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '3', 'material': None, 'materialno': None, 'custommaterialno': '00100009', 'materialname': '不倒翁卷笔刀', 'materialrule': '3XX', 'materialsize': '4SIZE', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 6, 'warrantydate': None, 'supplydate': None, 'memos': '', 'department': '测试单位3', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商2', 'itemno': '4', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 7, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊3', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}]}
+2018-12-07 18:11:16,392 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "200",
+  "data": "EQ20181207001660",
+  "message": "成功"
+}
+2018-12-07 18:13:38,224 run_main.py--> go_no_run 20: INFO ----->第14个case-->获取session: 测试通过
+2018-12-07 18:13:38,225 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com
+2018-12-07 18:13:38,225 run_main.py--> go_no_run 20: INFO ----->request_data-->None
+2018-12-07 18:13:38,225 run_main.py--> go_no_run 20: INFO ----->response_data-->Aa12345678
+2018-12-07 18:13:38,939 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试通过
+2018-12-07 18:13:38,939 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/planapi/api/enquiryOrder/addOrUpdateEnquiryOrder
+2018-12-07 18:13:38,939 run_main.py--> go_no_run 20: INFO ----->request_data-->{'enquiryOrder': {'customer': '40288130624b5a5a01624b73e4ec0022', 'customname': '测试1', 'enterprise': '4028813062b507430162c727eb4c00e2', 'enterprisename': '诸暨裕大贸易有限公司', 'createuser': '邓丹芳', 'createdate': '', 'createtime': '', 'status': '', 'checkuser': '', 'checkdate': '', 'checktime': '', 'checkadvice': '', 'sumordernum': 0, 'sumamount': '', 'memos': '', 'customerorderno': '', 'enquirydate': '2018-10-30T01:33:44.000Z', 'enquiryenddate': '2018-10-31T16:00:00.000Z', 'paymethod': '1', 'receiveaddress': '', 'supplydate': '', 'warrantydate': '', 'enclosure': '[]', 'isspecify': '0', 'salesid': 2481, 'businesstype': 0, 'salesman': '邓丹芳'}, 'enquiryOrderItems': [{'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '1', 'material': None, 'materialno': None, 'custommaterialno': 'A00001', 'materialname': '塑壳断路器', 'materialrule': 'NSX160S Mic2.2 3P 3D 100A', 'materialsize': 'LV430391X22100', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 5, 'warrantydate': None, 'supplydate': None, 'memos': '测试1', 'department': '测试单位1', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '2', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 4, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊2', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '3', 'material': None, 'materialno': None, 'custommaterialno': '00100009', 'materialname': '不倒翁卷笔刀', 'materialrule': '3XX', 'materialsize': '4SIZE', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 6, 'warrantydate': None, 'supplydate': None, 'memos': '', 'department': '测试单位3', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商2', 'itemno': '4', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 7, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊3', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}]}
+2018-12-07 18:13:38,940 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "200",
+  "data": "EQ20181207001661",
+  "message": "成功"
+}
+2018-12-07 18:14:26,281 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试通过
+2018-12-07 18:14:26,281 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/planapi/api/enquiryOrder/addOrUpdateEnquiryOrder
+2018-12-07 18:14:26,282 run_main.py--> go_no_run 20: INFO ----->request_data-->{'enquiryOrder': {'customer': '40288130624b5a5a01624b73e4ec0022', 'customname': '测试1', 'enterprise': '4028813062b507430162c727eb4c00e2', 'enterprisename': '诸暨裕大贸易有限公司', 'createuser': '邓丹芳', 'createdate': '', 'createtime': '', 'status': '', 'checkuser': '', 'checkdate': '', 'checktime': '', 'checkadvice': '', 'sumordernum': 0, 'sumamount': '', 'memos': '', 'customerorderno': '', 'enquirydate': '2018-10-30T01:33:44.000Z', 'enquiryenddate': '2018-10-31T16:00:00.000Z', 'paymethod': '1', 'receiveaddress': '', 'supplydate': '', 'warrantydate': '', 'enclosure': '[]', 'isspecify': '0', 'salesid': 2481, 'businesstype': 0, 'salesman': '邓丹芳'}, 'enquiryOrderItems': [{'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '1', 'material': None, 'materialno': None, 'custommaterialno': 'A00001', 'materialname': '塑壳断路器', 'materialrule': 'NSX160S Mic2.2 3P 3D 100A', 'materialsize': 'LV430391X22100', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 5, 'warrantydate': None, 'supplydate': None, 'memos': '测试1', 'department': '测试单位1', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '2', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 4, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊2', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '3', 'material': None, 'materialno': None, 'custommaterialno': '00100009', 'materialname': '不倒翁卷笔刀', 'materialrule': '3XX', 'materialsize': '4SIZE', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 6, 'warrantydate': None, 'supplydate': None, 'memos': '', 'department': '测试单位3', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商2', 'itemno': '4', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 7, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊3', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}]}
+2018-12-07 18:14:26,282 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "200",
+  "data": "EQ20181207001662",
+  "message": "成功"
+}
+2018-12-07 18:15:19,489 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试通过
+2018-12-07 18:15:19,489 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/planapi/api/enquiryOrder/addOrUpdateEnquiryOrder
+2018-12-07 18:15:19,490 run_main.py--> go_no_run 20: INFO ----->request_data-->{'enquiryOrder': {'customer': '40288130624b5a5a01624b73e4ec0022', 'customname': '测试1', 'enterprise': '4028813062b507430162c727eb4c00e2', 'enterprisename': '诸暨裕大贸易有限公司', 'createuser': '邓丹芳', 'createdate': '', 'createtime': '', 'status': '', 'checkuser': '', 'checkdate': '', 'checktime': '', 'checkadvice': '', 'sumordernum': 0, 'sumamount': '', 'memos': '', 'customerorderno': '', 'enquirydate': '2018-10-30T01:33:44.000Z', 'enquiryenddate': '2018-10-31T16:00:00.000Z', 'paymethod': '1', 'receiveaddress': '', 'supplydate': '', 'warrantydate': '', 'enclosure': '[]', 'isspecify': '0', 'salesid': 2481, 'businesstype': 0, 'salesman': '邓丹芳'}, 'enquiryOrderItems': [{'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '1', 'material': None, 'materialno': None, 'custommaterialno': 'A00001', 'materialname': '塑壳断路器', 'materialrule': 'NSX160S Mic2.2 3P 3D 100A', 'materialsize': 'LV430391X22100', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 5, 'warrantydate': None, 'supplydate': None, 'memos': '测试1', 'department': '测试单位1', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '2', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 4, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊2', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '3', 'material': None, 'materialno': None, 'custommaterialno': '00100009', 'materialname': '不倒翁卷笔刀', 'materialrule': '3XX', 'materialsize': '4SIZE', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 6, 'warrantydate': None, 'supplydate': None, 'memos': '', 'department': '测试单位3', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商2', 'itemno': '4', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 7, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊3', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}]}
+2018-12-07 18:15:19,490 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "200",
+  "data": "EQ20181207001663",
+  "message": "成功"
+}
+2018-12-07 18:15:39,985 run_main.py--> go_no_run 20: INFO ----->第15个case-->呵呵呵15: 测试通过
+2018-12-07 18:15:39,986 run_main.py--> go_no_run 20: INFO ----->url--> http://testscm.csjmro.com/planapi/api/enquiryOrder/addOrUpdateEnquiryOrder
+2018-12-07 18:15:39,986 run_main.py--> go_no_run 20: INFO ----->request_data-->{'enquiryOrder': {'customer': '40288130624b5a5a01624b73e4ec0022', 'customname': '测试1', 'enterprise': '4028813062b507430162c727eb4c00e2', 'enterprisename': '诸暨裕大贸易有限公司', 'createuser': '邓丹芳', 'createdate': '', 'createtime': '', 'status': '', 'checkuser': '', 'checkdate': '', 'checktime': '', 'checkadvice': '', 'sumordernum': 0, 'sumamount': '', 'memos': '', 'customerorderno': '', 'enquirydate': '2018-10-30T01:33:44.000Z', 'enquiryenddate': '2018-10-31T16:00:00.000Z', 'paymethod': '1', 'receiveaddress': '', 'supplydate': '', 'warrantydate': '', 'enclosure': '[]', 'isspecify': '0', 'salesid': 2481, 'businesstype': 0, 'salesman': '邓丹芳'}, 'enquiryOrderItems': [{'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '1', 'material': None, 'materialno': None, 'custommaterialno': 'A00001', 'materialname': '塑壳断路器', 'materialrule': 'NSX160S Mic2.2 3P 3D 100A', 'materialsize': 'LV430391X22100', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 5, 'warrantydate': None, 'supplydate': None, 'memos': '测试1', 'department': '测试单位1', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '2', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 4, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊2', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商1', 'itemno': '3', 'material': None, 'materialno': None, 'custommaterialno': '00100009', 'materialname': '不倒翁卷笔刀', 'materialrule': '3XX', 'materialsize': '4SIZE', 'materialtag': '江苏', 'orderunit': '个', 'orderprice': None, 'orderamount': None, 'ordernum': 6, 'warrantydate': None, 'supplydate': None, 'memos': '', 'department': '测试单位3', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}, {'id': None, 'ticketno': None, 'servicer': None, 'servicername': '供应商2', 'itemno': '4', 'material': None, 'materialno': None, 'custommaterialno': 'A00002', 'materialname': '单把式拉铆枪', 'materialrule': 'A10', 'materialsize': 'A10', 'materialtag': '江苏', 'orderunit': '把', 'orderprice': None, 'orderamount': None, 'ordernum': 7, 'warrantydate': None, 'supplydate': None, 'memos': '啊啊3', 'department': '测试单位2', 'distributestatus': None, 'taskstatus': None, 'edit': False, 'category': []}]}
+2018-12-07 18:15:39,987 run_main.py--> go_no_run 20: INFO ----->response_data-->{
+  "code": "200",
+  "data": "EQ20181207001665",
+  "message": "成功"
+}
