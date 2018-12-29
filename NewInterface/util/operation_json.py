@@ -32,7 +32,7 @@ class OperationJson:
     # json写入数据
     def write_data(self, data):
         father_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data')
-        self.file_path = os.path.join(father_path, 'scm-cookies.json')
+        self.file_path = os.path.join(father_path, '金城-cookies.json')
         with open(self.file_path, 'w') as fp:
             fp.write(json.dumps(data))
 
