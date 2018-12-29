@@ -74,7 +74,8 @@ class RunTest:
                     self.logger.info("url--> " + url)
                     self.logger.info("request_data-->" + str(request_data))
                     self.logger.info("response_data-->" + res)
-                    print("第" + str(i) + "个case-->" + case_name + ": \033[32m测试通过\033[0m")
+                    print("第" + str(i) + "个case-->" + case_name + ": 测试通过")
+                    # print("第" + str(i) + "个case-->" + case_name + ": \033[32m测试通过\033[0m")
                     # print(res)
                 else:
                     self.data.write_data(i, res)
@@ -83,7 +84,8 @@ class RunTest:
                     self.logger.info("request_data-->" + str(request_data))
                     self.logger.info("response_data-->" + res)
                     # print("第" + str(i) + "个case-->" + "\033[35m测试失败\033[0m")
-                    print("\033[35m第%s 个case-->%s: 测试失败\033[0m" % (str(i), case_name))
+                    print("第%s 个case-->%s: 测试失败" % (str(i), case_name))
+                    # print("\033[35m第%s 个case-->%s: 测试失败\033[0m" % (str(i), case_name))
                     # print(res)
 
 
