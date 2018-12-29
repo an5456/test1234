@@ -10,6 +10,7 @@ class OperationJson:
             # self.file_path = '../data/login.json'
         else:
             self.file_path = file_path
+            print(self.file_path)
         self.data = self.read_data()
 
     # 读取json文件

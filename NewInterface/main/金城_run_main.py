@@ -53,6 +53,7 @@ class RunTest:
                 elif cookie == 'yes':
                     father_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data')
                     file_path = os.path.join(father_path, '金城-cookies.json')
+                    print(file_path)
                     get_cookies = OperationJson(file_path)
 
                     cooki = get_cookies.get_data('accessToken')
@@ -60,7 +61,9 @@ class RunTest:
                     res = self.run_method.run_main(method, url, request_data, data_type)
 
                 else:
-                    get_cookies = OperationJson('../data/金城-cookies.json')
+                    father_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data')
+                    file_path = os.path.join(father_path, '金城-cookies.json')
+                    get_cookies = OperationJson(file_path)
                     cooki = get_cookies.get_data('accessToken')
                     request_data['accessToken'] = cooki
                     res = self.run_method.run_main(method, url, request_data)
