@@ -4,7 +4,6 @@ import os
 import xlrd
 from xlutils.copy import copy
 
-sys.path.append('C:\\Users\\Administrator\\PycharmProjects\\NewInterface')
 
 
 class OperationExcel:
