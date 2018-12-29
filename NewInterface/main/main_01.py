@@ -43,7 +43,7 @@ class RunTest:
                 op_cookie = OperationCookie(res)  # 获取cookies
                 op_cookie.write_cookie()  # 写入cookies
             elif cookie == 'yes':
-                get_cookies = OperationJson('../data/cookies.json')
+                get_cookies = OperationJson('../data/scm-cookies.json')
                 cooki = get_cookies.get_data('SESSION')
                 cookies = {
                     "SESSION": cooki
@@ -53,11 +53,12 @@ class RunTest:
                 res = self.run_method.run_main(method, url, request_data)
             if self.is_contain.is_contain(expect, res):
                 self.data.write_data(i, 'pass')
+                print(res)
 
             else:
                 self.data.write_data(i, 'fail')
                 print(res)
-            return result
+
 
 
 if __name__ == '__main__':

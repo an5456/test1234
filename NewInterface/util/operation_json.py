@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import json
 
 
@@ -23,18 +24,17 @@ class OperationJson:
             data = list(self.data.keys())[0]
 
         else:
-            if key is not None and key != '':
-                data = self.data[key]
+            data = self.data[key]
         return data
 
     # json写入数据
     def write_data(self, data):
-        with open('../data/cookies.json', 'w') as fp:
+        with open('../data/scm-cookies.json', 'w') as fp:
             fp.write(json.dumps(data))
 
 
 if __name__ == '__main__':
-    operation = OperationJson('../data/cookies.json')
+    operation = OperationJson('../data/scm-cookies.json')
     print(type(operation.get_data('accessToken')))
-    #print(operation.write_data('test112就的撒3'))
-    #print(operation.get_data('test'))
+    # print(operation.write_data('test112就的撒3'))
+    # print(operation.get_data('test'))

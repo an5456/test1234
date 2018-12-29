@@ -1,0 +1,40 @@
+2018-12-21 19:05:40,300 scm-run_main.py--> go_no_run 20: INFO ----->第9个case-->金城登录: 测试通过
+2018-12-21 19:05:40,300 scm-run_main.py--> go_no_run 20: INFO ----->url--> http://capijcy.jcease.com/jcy-api/app/system/passwordLogin
+2018-12-21 19:05:40,301 scm-run_main.py--> go_no_run 20: INFO ----->request_data-->{'channelMark': '00_OPPO', 'mobi': '18520350227', 'password': '03761decb8c83294b570fbc917b88729', 'pre': '+86', 'OSType': 'A'}
+2018-12-21 19:05:40,301 scm-run_main.py--> go_no_run 20: INFO ----->response_data-->{"code": 0, "errmsg": null, "data": {"userNo": "2009547", "accessToken": "23483a2057af45de821d76a8404cf91f", "refreshToken": "23483a2057af45de821d76a8404cf91f", "accessTokenExpires": 1576494348521, "data": {"userNo": "2009547", "name": null, "nickName": "没心没肺", "headImageUrl": "http://payflie.oss-cn-shanghai.aliyuncs.com/debug/jcease/image/a_15306980639651509716044", "mobileNo": "18520350227", "email": null, "member": null, "clientType": "OUTER", "type": null, "merchantName": null, "status": 1, "registerTime": 1526262840000, "preMobile": "+86", "certificatenum": null, "lastUpdated": 1531294368000, "loginChannel": "JCY"}}}
+2018-12-21 19:05:41,002 scm-run_main.py--> go_no_run 20: INFO ----->第10个case-->创建收货地址: 测试失败
+2018-12-21 19:05:41,002 scm-run_main.py--> go_no_run 20: INFO ----->url--> https://capimall.jcease.com/api/shop/v4/address/save
+2018-12-21 19:05:41,003 scm-run_main.py--> go_no_run 20: INFO ----->request_data-->{'detail': '11', 'userName': '2', 'mobile': '155554465555', 'area': '滨江区', 'city': '杭州市', 'province': '浙江省', 'defaultAddress': False, 'accessToken': '1c126ec58edc4582ace970a179399ef2', 'appVersion': '3.14.1', 'appPlatform': 'android'}
+2018-12-21 19:05:41,003 scm-run_main.py--> go_no_run 20: INFO ----->response_data-->{"code": 20101, "errmsg": "请登录"}
+2018-12-21 19:05:41,395 scm-run_main.py--> go_no_run 20: INFO ----->第11个case-->修改地址: 测试失败
+2018-12-21 19:05:41,396 scm-run_main.py--> go_no_run 20: INFO ----->url--> https://capimall.jcease.com/api/shop/v4/address/update
+2018-12-21 19:05:41,396 scm-run_main.py--> go_no_run 20: INFO ----->request_data-->{'id': 10243, 'userName': '得到', 'mobile': '155554465559', 'city': '深圳市', 'detail': '11', 'area': '罗湖区', 'province': '广东省', 'defaultAddress': False, 'accessToken': '1c126ec58edc4582ace970a179399ef2', 'appVersion': '3.14.1', 'appPlatform': 'android'}
+2018-12-21 19:05:41,396 scm-run_main.py--> go_no_run 20: INFO ----->response_data-->{"code": 20101, "errmsg": "请登录"}
+2018-12-21 19:05:41,690 scm-run_main.py--> go_no_run 20: INFO ----->第12个case-->查看地址: 测试失败
+2018-12-21 19:05:41,690 scm-run_main.py--> go_no_run 20: INFO ----->url--> https://capimall.jcease.com/api/shop/v3/address/list
+2018-12-21 19:05:41,690 scm-run_main.py--> go_no_run 20: INFO ----->request_data-->{'accessToken': '1c126ec58edc4582ace970a179399ef2', 'appVersion': '3.14.1', 'appPlatform': 'android'}
+2018-12-21 19:05:41,691 scm-run_main.py--> go_no_run 20: INFO ----->response_data-->{"code": 20101, "errmsg": "请登录"}
+2018-12-21 19:05:42,211 scm-run_main.py--> go_no_run 20: INFO ----->第13个case-->删除地址: 测试失败
+2018-12-21 19:05:42,212 scm-run_main.py--> go_no_run 20: INFO ----->url--> https://capimall.jcease.com/api/shop/address/delete
+2018-12-21 19:05:42,212 scm-run_main.py--> go_no_run 20: INFO ----->request_data-->{'id': 10243, 'accessToken': '1c126ec58edc4582ace970a179399ef2', 'appVersion': '3.14.1', 'appPlatform': 'android'}
+2018-12-21 19:05:42,213 scm-run_main.py--> go_no_run 20: INFO ----->response_data-->{"code": 20101, "errmsg": "请登录"}
+2018-12-21 21:49:43,780 scm-run_main.py--> go_no_run 20: INFO ----->第9个case-->金城登录: 测试通过
+2018-12-21 21:49:43,781 scm-run_main.py--> go_no_run 20: INFO ----->url--> http://capijcy.jcease.com/jcy-api/app/system/passwordLogin
+2018-12-21 21:49:43,781 scm-run_main.py--> go_no_run 20: INFO ----->request_data-->{'channelMark': '00_OPPO', 'mobi': '18520350227', 'password': '03761decb8c83294b570fbc917b88729', 'pre': '+86', 'OSType': 'A'}
+2018-12-21 21:49:43,781 scm-run_main.py--> go_no_run 20: INFO ----->response_data-->{"code": 0, "errmsg": null, "data": {"userNo": "2009547", "accessToken": "7f361f69427a4cda8ba0615082fa5704", "refreshToken": "7f361f69427a4cda8ba0615082fa5704", "accessTokenExpires": 1576504192473, "data": {"userNo": "2009547", "name": null, "nickName": "没心没肺", "headImageUrl": "http://payflie.oss-cn-shanghai.aliyuncs.com/debug/jcease/image/a_15306980639651509716044", "mobileNo": "18520350227", "email": null, "member": null, "clientType": "OUTER", "type": null, "merchantName": null, "status": 1, "registerTime": 1526262840000, "preMobile": "+86", "certificatenum": null, "lastUpdated": 1531294368000, "loginChannel": "JCY"}}}
+2018-12-21 21:49:45,953 scm-run_main.py--> go_no_run 20: INFO ----->第10个case-->创建收货地址: 测试失败
+2018-12-21 21:49:45,953 scm-run_main.py--> go_no_run 20: INFO ----->url--> https://capimall.jcease.com/api/shop/v4/address/save
+2018-12-21 21:49:45,953 scm-run_main.py--> go_no_run 20: INFO ----->request_data-->{'detail': '11', 'userName': '2', 'mobile': '155554465555', 'area': '滨江区', 'city': '杭州市', 'province': '浙江省', 'defaultAddress': False, 'accessToken': '1c126ec58edc4582ace970a179399ef2', 'appVersion': '3.14.1', 'appPlatform': 'android'}
+2018-12-21 21:49:45,954 scm-run_main.py--> go_no_run 20: INFO ----->response_data-->{"code": 20101, "errmsg": "请登录"}
+2018-12-21 21:49:46,068 scm-run_main.py--> go_no_run 20: INFO ----->第11个case-->修改地址: 测试失败
+2018-12-21 21:49:46,069 scm-run_main.py--> go_no_run 20: INFO ----->url--> https://capimall.jcease.com/api/shop/v4/address/update
+2018-12-21 21:49:46,069 scm-run_main.py--> go_no_run 20: INFO ----->request_data-->{'id': 10243, 'userName': '得到', 'mobile': '155554465559', 'city': '深圳市', 'detail': '11', 'area': '罗湖区', 'province': '广东省', 'defaultAddress': False, 'accessToken': '1c126ec58edc4582ace970a179399ef2', 'appVersion': '3.14.1', 'appPlatform': 'android'}
+2018-12-21 21:49:46,069 scm-run_main.py--> go_no_run 20: INFO ----->response_data-->{"code": 20101, "errmsg": "请登录"}
+2018-12-21 21:49:46,215 scm-run_main.py--> go_no_run 20: INFO ----->第12个case-->查看地址: 测试失败
+2018-12-21 21:49:46,215 scm-run_main.py--> go_no_run 20: INFO ----->url--> https://capimall.jcease.com/api/shop/v3/address/list
+2018-12-21 21:49:46,215 scm-run_main.py--> go_no_run 20: INFO ----->request_data-->{'accessToken': '1c126ec58edc4582ace970a179399ef2', 'appVersion': '3.14.1', 'appPlatform': 'android'}
+2018-12-21 21:49:46,215 scm-run_main.py--> go_no_run 20: INFO ----->response_data-->{"code": 20101, "errmsg": "请登录"}
+2018-12-21 21:49:46,371 scm-run_main.py--> go_no_run 20: INFO ----->第13个case-->删除地址: 测试失败
+2018-12-21 21:49:46,371 scm-run_main.py--> go_no_run 20: INFO ----->url--> https://capimall.jcease.com/api/shop/address/delete
+2018-12-21 21:49:46,372 scm-run_main.py--> go_no_run 20: INFO ----->request_data-->{'id': 10243, 'accessToken': '1c126ec58edc4582ace970a179399ef2', 'appVersion': '3.14.1', 'appPlatform': 'android'}
+2018-12-21 21:49:46,372 scm-run_main.py--> go_no_run 20: INFO ----->response_data-->{"code": 20101, "errmsg": "请登录"}

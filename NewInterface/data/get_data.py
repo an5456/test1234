@@ -113,8 +113,8 @@ class GetData:
         request_data = self.operation.get_cell_data(row, col)
         if request_data is not None:
             return request_data
-        # else:
-        #     return None
+        else:
+            return None
 
     # 获取json数据
     def get_json_data(self, row):

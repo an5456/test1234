@@ -1,8 +1,6 @@
 import requests
 import json
 
-from main.get_session import GetCookies
-
 
 class RunMethod:
     def post_main(self, url, data, cookies=None, data_type=None):
@@ -32,19 +30,15 @@ class RunMethod:
         res = None
         if method == 'post':
             res = self.post_main(url=url, data=data, cookies=cookies, data_type=data_type)
-            return json.dumps(res, ensure_ascii=False)
-        elif method == 'get':
-            res = self.get_main(url=url, data=data, cookies=cookies)
-            return json.dumps(res, ensure_ascii=False)
-        # return json.dumps(res, ensure_ascii=False, sort_keys=True, indent=2)
-        # # return json.dumps(res, ensure_ascii=False)
         else:
-            GetCookies(url=url, username=method, password=data_type, code='1234')
+            res = self.get_main(url=url, data=data, cookies=cookies)
+        # return json.dumps(res, ensure_ascii=False, sort_keys=True, indent=2)
+        return json.dumps(res, ensure_ascii=False)
 
 
 if __name__ == '__main__':
     ru = RunMethod()
-    url ='http://192.168.2.153/yyjapi/api/purchorder/getpurchorder'
+    url = 'http://192.168.2.153/yyjapi/api/purchorder/getpurchorder'
     data = {"ticketno": "PO20181114000481",
             "flag": 0
             }

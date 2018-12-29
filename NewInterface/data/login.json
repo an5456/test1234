@@ -8,7 +8,5 @@
   "creat": {"detail":"11","userName":"2","mobile":"155554465555","area":"滨江区","city":"杭州市","province":"浙江省","defaultAddress":false,"accessToken":"1c126ec58edc4582ace970a179399ef2","appVersion":"3.14.1","appPlatform":"android"},
   "detai": {"id":10243,"userName":"得到","mobile":"155554465559","city":"深圳市","detail":"11","area":"罗湖区","province":"广东省","defaultAddress":false,"accessToken":"1c126ec58edc4582ace970a179399ef2","appVersion":"3.14.1","appPlatform":"android"},
   "chakan": {"accessToken":"1c126ec58edc4582ace970a179399ef2","appVersion":"3.14.1","appPlatform":"android"},
-  "delete": {"id":10243,"accessToken":"1c126ec58edc4582ace970a179399ef2","appVersion":"3.14.1","appPlatform":"android"},
-  "test5": {},
-  "test6": ["SO20181024000426"]
+  "delete": {"id":10243,"accessToken":"1c126ec58edc4582ace970a179399ef2","appVersion":"3.14.1","appPlatform":"android"}
 }

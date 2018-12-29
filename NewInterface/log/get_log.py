@@ -18,8 +18,10 @@ class UserLog(object):
 
             # 文件名字
             base_dir = os.path.dirname(os.path.abspath(__file__))
+            # base_dir = '../logs'
             log_dir = os.path.join(base_dir, "logs")
             log_file = datetime.datetime.now().strftime("%Y-%m-%d") + ".log"
+            # log_name = base_dir + "/" + log_file
             log_name = log_dir + "/" + log_file
             # 文件输出日志
             self.file_handle = logging.FileHandler(log_name, 'a', encoding='utf-8')
@@ -42,3 +44,4 @@ if __name__ == '__main__':
     log = user.get_log()
     log.debug('test')
     user.close_handle()
+    print(os.path.dirname(os.path.abspath(__file__)))

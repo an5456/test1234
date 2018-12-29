@@ -24,42 +24,28 @@ class DependData:
         row_num = self.operation.get_row_num(self.casi_id)  # 获取行号
         request_data = self.data.get_json_data(row_num)  # 获取请求数据
         request_method = self.data.get_request_way(row_num)  # 获取请求方法
-        print(request_method)
-        depend_type = self.data.get_depned_key(row_num)
         url = self.data.get_url(row_num)
-        print(url)
-        data_type = self.data.get_data_type(row_num)
-        print(data_type)
-
         cookie = self.data.get_is_cookies(row_num)
-        if cookie == 'write':
-            run_method.run_main(url=url, method=request_method, data_type=data_type)
-            res = 'Aa12345678'
-        elif cookie == 'yes':
-            operation = OperationJson('../data/cookies.json')
+        if cookie == 'yes':
+            operation = OperationJson('../data/scm-cookies.json')
             cookie = operation.get_data('SESSION')
             cookies = {
                 "SESSION": cookie
             }
-            res = run_method.run_main(request_method, url, request_data, cookies)
-            return json.loads(res)
+            res = run_method.run_main(request_method, url, request_data, cookie)
         else:
             res = run_method.run_main(request_method, url, request_data)
-            return json.loads(res)
-
+        return json.loads(res)
 
     # 获取依赖case的值
     def get_depned_value(self, row):
         depend_data = self.data.get_depend_data(row)  # 获取匹配的依赖字段
-        if depend_data is not None:
-            response_data = self.run_depend_case()  # 获取响应数据
-            json_exe = parse(depend_data)  # 根据depend_data去匹配对应的值
-            madel = json_exe.find(response_data)  # 查找
-            return [math.value for math in madel]  # 返回找到的值
-        else:
-            return None
+        response_data = self.run_depend_case()  # 获取响应数据
+        json_exe = parse(depend_data)  # 根据depend_data去匹配对应的值
+        madel = json_exe.find(response_data)  # 查找
+        return [math.value for math in madel]  # 返回找到的值
 
 
 if __name__ == '__main__':
-    depent = DependData("Imooc-14")
-    depent.run_depend_case()
+    depent = DependData("Imooc-01")
+    print(depent.run_depend_case())
