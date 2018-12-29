@@ -51,7 +51,9 @@ class RunTest:
                     op_cookie = WriteCookies(res)  # 获取cookies
                     op_cookie.write_cookie()  # 写入cook ies
                 elif cookie == 'yes':
-                    get_cookies = OperationJson('../data/金城-cookies.json')
+                    father_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data')
+                    file_path = os.path.join(father_path, '金城-cookies.json')
+                    get_cookies = OperationJson(file_path)
 
                     cooki = get_cookies.get_data('accessToken')
                     request_data['accessToken'] = cooki
