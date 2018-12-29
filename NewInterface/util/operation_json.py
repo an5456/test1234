@@ -1,11 +1,14 @@
 # -*- coding: utf-8 -*-
 import json
-
+import os
 
 class OperationJson:
     def __init__(self, file_path=None):
         if file_path is None:
-            self.file_path = '../data/login.json'
+            father_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data')
+            # self.file_name = '../data/interface.xls'
+            self.file_path = os.path.join(father_path, 'login.json')
+            # self.file_path = '../data/login.json'
         else:
             self.file_path = file_path
         self.data = self.read_data()
