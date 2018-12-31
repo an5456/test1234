@@ -76,7 +76,7 @@ class RunTest:
                     self.logger.info("response_data-->" + res)
                     print("第" + str(i) + "个case-->" + case_name + ": 测试通过")
                     # print("第" + str(i) + "个case-->" + case_name + ": \033[32m测试通过\033[0m")
-                    # print(res)
+
                 else:
                     self.data.write_data(i, res)
                     self.logger.info("第" + str(i) + "个case-->" + case_name + ": 测试失败")
