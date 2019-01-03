@@ -86,7 +86,7 @@ class RunTest:
                     # print("第" + str(i) + "个case-->" + "\033[35m测试失败\033[0m")
                     print("第%s 个case-->%s: 测试失败" % (str(i), case_name))
                     # print("\033[35m第%s 个case-->%s: 测试失败\033[0m" % (str(i), case_name))
-                    # print(res)
+
 
 
 if __name__ == '__main__':
